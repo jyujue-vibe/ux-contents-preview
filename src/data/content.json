@@ -1,0 +1,1544 @@
+{
+  "pieces": [
+    {
+      "id": "article-001-invisible-gorilla",
+      "category": "Articles",
+      "titleEn": "The Gorilla Your Users Walk Straight Past",
+      "titleMy": "မင်း User တွေ ဘေးကနေ ဖြတ်သွားတဲ့ Gorilla",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: Articles\nTopic: The Invisible Gorilla Experiment (Selective Attention)\nCover: none attached — Writer Studio can auto-generate one at posting time."
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "A quick test before we start"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မစခင် စမ်းကြည့်ရအောင်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Watch a short video of two teams passing basketballs. Your job is simple: count the passes made by the team in white. Ignore the team in black completely. Ready? Start counting."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဘတ်စကက်ဘော ပို့နေတဲ့ team နှစ်ဖွဲ့ video ကို ကြည့်တယ် ဆိုပါစို့။ မင်း အလုပ်က ရိုးရိုးလေးပဲ။ အဖြူ team ရဲ့ pass တွေကို ရေတွက်ပါ။ အမဲ team ကို လုံးဝ လှည့်မကြည့်ပါနဲ့။ အဆင်သင့်ပဲလား။ စရေတွက်လိုက်တော့။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The experiment"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "စမ်းသပ်ချက်က ဒီလိုပါ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "In 1999, psychologists Daniel Simons and Christopher Chabris ran exactly this test. Halfway through the video, a person in a full gorilla suit walks into the middle of the game. She stops, faces the camera, beats her chest, and walks off. She is on screen for about nine seconds. She is not hiding."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "1999 ခုနှစ်မှာ စိတ်ပညာရှင် Daniel Simons နဲ့ Christopher Chabris က ဒီ စမ်းသပ်ချက်ကို အတိအကျ လုပ်ခဲ့တယ်။ Video အလယ်လောက်မှာ gorilla ဝတ်စုံ အပြည့် ဝတ်ထားတဲ့ လူတစ်ယောက် ကွင်းရဲ့ အလယ်ကို ဝင်လာတယ်။ ရပ်တယ်။ Camera ဘက်ကို လှည့်တယ်။ ရင်ဘတ်ကို ထုတယ်။ ပြီးရင် ထွက်သွားတယ်။ Screen ပေါ်မှာ ကိုးစက္ကန့် လောက် ရှိတယ်။ ပုန်းနေတာ မဟုတ်ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Then the researchers asked one more question: did you see anything unusual?"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ပြီးတော့ သုတေသီတွေက မေးခွန်း တစ်ခု ထပ်မေးတယ်။ ထူးဆန်းတာ တစ်ခုခု မြင်လိုက်လား။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "About half of the people counting passes said no. They had missed a gorilla, standing in front of them, beating its chest."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Pass ရေတွက်နေတဲ့ လူတွေရဲ့ ထက်ဝက်လောက်က မမြင်ဘူးလို့ ဖြေတယ်။ သူတို့ရှေ့မှာတင် ရင်ဘတ် ထုနေတဲ့ gorilla ကို သူတို့ လွတ်သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Why your brain deletes a gorilla"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဦးနှောက်က gorilla ကို ဘာလို့ ဖျက်ပစ်လဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Your eyes take in far more than your brain can process. So attention works like a guard at a gate. It lets in what matches your current task and quietly throws the rest away."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း မျက်လုံးက မြင်တာက ဦးနှောက်က လုပ်နိုင်တာထက် အများကြီး ပိုများတယ်။ ဒါကြောင့် attention က တံခါးစောင့် တစ်ယောက်လို အလုပ်လုပ်တယ်။ မင်း လက်ရှိ လုပ်နေတဲ့ အလုပ်နဲ့ ကိုက်တာကို ဝင်ခွင့်ပေးတယ်။ ကျန်တာကို တိတ်တိတ် ပစ်လိုက်တယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The counting task made this stronger. People were told to follow the white team and ignore the black team. A black gorilla matched the \"ignore\" pile almost perfectly. The harder the counting task, the more people missed."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ရေတွက်ရတဲ့ အလုပ်က ဒါကို ပို ပြင်းသွားအောင် လုပ်တယ်။ လူတွေကို အဖြူ team ကို လိုက်ကြည့်ပါ၊ အမဲ team ကို လျစ်လျူ ရှုပါလို့ ပြောထားတယ်။ အမဲရောင် gorilla က လျစ်လျူ ရှုရမယ့် ပုံထဲကို ကွက်တိ ဝင်သွားတယ်။ ရေတွက်ရ ခက်လေ လွတ်တာ များလေပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "When the same people watched the video again with no task, they saw the gorilla instantly. Some were so sure it could not have been there the first time that they accused the researchers of swapping the video."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "အဲဒီ လူတွေကိုပဲ အလုပ် မပေးဘဲ video ကို ထပ်ပြတော့ gorilla ကို တန်းပြီး မြင်တယ်။ တချို့ဆို ပထမ အခေါက်က ဒီ gorilla မရှိခဲ့ဘူးလို့ သေချာ ပြောပြီး သုတေသီတွေက video လဲထားတယ်လို့ စွပ်စွဲတဲ့အထိ ဖြစ်သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Knowing about the gorilla does not save you"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "Gorilla အကြောင်း သိထားလည်း မကယ်ဘူး"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Years later, Simons ran the test again. This time people knew a gorilla might appear, and yes, they spotted it. But while they were busy watching for the gorilla, the curtain in the background changed colour, and most of them missed that instead."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "နှစ်အနည်းငယ် ကြာတော့ Simons က စမ်းသပ်ချက်ကို ထပ် လုပ်တယ်။ ဒီတစ်ခါ လူတွေက gorilla ပေါ်လာနိုင်တယ် ဆိုတာ သိထားတယ်။ ဟုတ်တယ်၊ သူတို့ မြင်သွားတယ်။ ဒါပေမဲ့ gorilla ကို စောင့်ကြည့်နေတုန်းမှာ နောက်ခံက curtain က အရောင် ပြောင်းသွားတယ်။ လူ အများစုက အဲဒါကိုတော့ လွတ်သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "That second effect is called change blindness. Attention is not just limited. It is spent. Whatever your users are spending it on, they are not spending it on everything else on your screen."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "အဲဒီ ဒုတိယ အကျိုးဆက်ကို change blindness လို့ ခေါ်တယ်။ Attention က အကန့်အသတ် ရှိရုံ မဟုတ်ဘူး။ သုံးလို့ ကုန်တဲ့ အရာပဲ။ မင်း user တွေက သူတို့ရဲ့ attention ကို တစ်ခုခုမှာ သုံးနေရင် screen ပေါ်က ကျန်တဲ့ အရာတွေအတွက် သုံးဖို့ မကျန်ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Your product is full of gorillas"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မင်း product ထဲမှာလည်း gorilla တွေ ပြည့်နေတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Now replace the basketball video with your checkout page. Your user is counting passes too: typing card numbers, checking the total, racing an expiring session timer. What are they missing while they do it?"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "အခု ဘတ်စကက်ဘော video နေရာမှာ မင်း checkout page ကို အစားထိုးကြည့်။ မင်း user ကလည်း pass တွေ ရေတွက်နေတာပဲ။ Card နံပါတ် ရိုက်နေတယ်။ စုစုပေါင်း စစ်နေတယ်။ Session မကုန်ခင် အမြန် လုပ်နေရတယ်။ အဲဒီ အချိန်မှာ သူတို့ ဘာတွေ လွတ်နေလဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The delivery fee that changed at the last step. The error message written in the same small grey text as everything else. The discount banner that a rotating carousel showed for four seconds, three slides ago."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "နောက်ဆုံး အဆင့်မှာ ပြောင်းသွားတဲ့ delivery fee။ တခြား စာတွေနဲ့ တစ်ပုံစံတည်း မီးခိုးရောင် စာလုံးသေးနဲ့ ရေးထားတဲ့ error message။ Carousel လည်နေရင်း လေးစက္ကန့် ပေါ်ပြီး လွန်သွားတဲ့ discount banner။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "UX Planet's article on this study makes the same point with carousels: in testing by the Nielsen Norman Group, people have missed large offers sitting at the top of a page simply because the panel rotated away while they were focused on something else. If it moves, changes quietly, or sits outside the task, your users will swear it was never there. Just like the tape they accused Simons of swapping."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "UX Planet ရဲ့ ဆောင်းပါးထဲမှာလည်း carousel နဲ့ ပတ်သက်ပြီး ဒီ အချက်ကိုပဲ ပြောထားတယ်။ Nielsen Norman Group ရဲ့ စမ်းသပ်ချက်တွေမှာ page ရဲ့ အပေါ်ဆုံးမှာ ရှိတဲ့ offer အကြီးကြီးကိုတောင် လူတွေ လွတ်သွားတယ်။ Panel က သူတို့ တခြား နေရာမှာ အာရုံ စိုက်နေတုန်း လည်ပြီး ပျောက်သွားလို့ပဲ။ ရွေ့နေတာ၊ တိတ်တိတ် ပြောင်းသွားတာ၊ အလုပ်ရဲ့ အပြင်ဘက်မှာ ရှိနေတာ ဆိုရင် မင်း user က အဲဒါ တစ်ခါမှ မရှိခဲ့ဘူးလို့ ကျိန်ပြောလိမ့်မယ်။ Simons ကို video လဲထားတယ်လို့ စွပ်စွဲတဲ့ လူတွေလိုပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Design for the brain people actually have"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "လူတွေ တကယ် ရှိတဲ့ ဦးနှောက်အတွက် design လုပ်ပါ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "You cannot fix attention. You can only design with it. Four working rules come out of this one experiment:"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Attention ကို ပြင်လို့ မရဘူး။ သူနဲ့ အတူ လိုက်ပြီး design လုပ်လို့ပဲ ရတယ်။ ဒီ စမ်းသပ်ချက် တစ်ခုကနေ အလုပ်ဖြစ် စည်းမျဉ်း လေးခု ထွက်လာတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Protect the main task. Every extra banner, pop-up and badge near a focused task is one more thing stealing the attention the task needs.\n- Make important changes impossible to miss. Errors and state changes need a different colour, a different place, and words a person notices, not fine print in the same grey as everything else.\n- Never hide critical information in motion. If it rotates, slides away or times out, treat it as information most users will never see.\n- Test with people doing the real task. Reviewing a screen calmly is not the same as using it under pressure. Your gorillas only show themselves in real use."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- အဓိက အလုပ်ကို ကာကွယ်ပါ။ အာရုံ စိုက်ရတဲ့ အလုပ်နားမှာ banner, pop-up နဲ့ badge တစ်ခု ပိုလာတိုင်း အလုပ်က လိုတဲ့ attention တစ်စိတ်တစ်ပိုင်း အခိုး ခံနေရတယ်။\n- အရေးကြီး အပြောင်းအလဲကို လွတ်လို့ မရအောင် လုပ်ပါ။ Error နဲ့ အခြေအနေ အပြောင်းတွေက အရောင် ခြားရမယ်။ နေရာ ခြားရမယ်။ လူ သတိထားမိတဲ့ စကားလုံးတွေနဲ့ ရေးရမယ်။ တခြား စာတွေနဲ့ တစ်ပုံစံတည်း မီးခိုးရောင် စာလုံးသေး မလုပ်ပါနဲ့။\n- အရေးကြီး သတင်းကို ရွေ့နေတဲ့ အရာထဲ ဘယ်တော့မှ မဝှက်ပါနဲ့။ လည်နေတာ၊ လျှောပြီး ပျောက်သွားတာ၊ အချိန် ကုန်ပြီး ပျောက်သွားတာ ဆိုရင် user အများစု ဘယ်တော့မှ မမြင်မယ့် သတင်းလို့ သဘောထားပါ။\n- တကယ့် အလုပ်ကို လုပ်နေတဲ့ လူတွေနဲ့ စမ်းပါ။ Screen တစ်ခုကို အေးအေး ကြည့်တာနဲ့ ဖိအားအောက်မှာ တကယ် သုံးတာက မတူဘူး။ မင်း gorilla တွေက တကယ် သုံးတဲ့ အချိန်မှာပဲ ကိုယ်ထင်ပြတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The one sentence to keep"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မှတ်ထားရမယ့် စာကြောင်း တစ်ကြောင်း"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Your users are not careless. They are busy counting passes, and your design decided what the passes were. Make sure the things that matter are inside the task they are focused on, not walking through the middle of it in a gorilla suit."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း user တွေက ပေါ့ဆတဲ့ လူတွေ မဟုတ်ဘူး။ သူတို့က pass တွေ ရေတွက်နေရလို့ မအားတာပဲ။ Pass ဆိုတာ ဘာလဲ ဆိုတာကို ဆုံးဖြတ်တာက မင်း design ပဲ။ အရေးကြီးတဲ့ အရာတွေကို သူတို့ အာရုံ စိုက်နေတဲ့ အလုပ်ရဲ့ အထဲမှာ ထည့်ထားပါ။ အလုပ်ရဲ့ အလယ်ကနေ gorilla ဝတ်စုံနဲ့ ဖြတ်လျှောက်ခိုင်းတာမျိုး မဖြစ်ပါစေနဲ့။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Keep learning\nLaws of UX: Selective Attention · Cheatsheet: UX Laws Cheatsheet · Glossary: Cognitive Load · Mental Model"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဆက်လေ့လာဖို့\nLaws of UX: Selective Attention · Cheatsheet: UX Laws Cheatsheet · Glossary: Cognitive Load · Mental Model"
+          }
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- Ross Dillon, \"The Most Influential Psychological Studies on UX Design\", UX Planet — https://medium.com/ux-planet/the-most-influential-psychological-studies-on-ux-design-2f92fa6e2442\n- \"Inattentional Blindness\", Open Textbook, University of Kansas — https://opentext.ku.edu/teams/chapter/inattentional-blindness/\n- Quirk Lab Science, \"The Invisible Gorilla: Why You Miss Things in Plain Sight\" — https://quirklabscience.com/brain-tricks/invisible-gorilla-selective-attention"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "article-002-peak-end-rule",
+      "category": "Articles",
+      "titleEn": "People Forget Your Product. They Remember Two Moments.",
+      "titleMy": "လူတွေက မင်း Product ကို မေ့သွားတယ်။ အခိုက်အတန့် နှစ်ခုကိုပဲ မှတ်မိတယ်",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: Articles\nTopic: The Peak-End Rule (Daniel Kahneman)\nNote: a fresh topic — not one of the five studies from the UX Planet list."
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "More pain, chosen on purpose"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "နာတာ ပိုများတာကို တမင် ရွေးတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "In a 1993 study, people put one hand in painfully cold water, 14 degrees, for 60 seconds. That was trial one."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "1993 ခုနှစ်မှာ စမ်းသပ်ချက် တစ်ခု လုပ်တယ်။ လူတွေကို လက်တစ်ဖက်ကို ရေခဲရေထဲ စက္ကန့် 60 စိမ်ခိုင်းတယ်။ ရေက 14 degree ပဲ ရှိတယ်။ တော်တော် အေးတယ်။ ဒါက ပထမ အခေါက်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Trial two was worse on paper. The same 60 seconds in the same cold water, then 30 extra seconds with the water warmed just slightly, to 15 degrees. Still cold. Still uncomfortable. Just less bad at the end."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒုတိယ အခေါက်က ပို ဆိုးတယ်။ ပထမ အတိုင်း စက္ကန့် 60 စိမ်ရတယ်။ ပြီးပြီလားဆိုတော့ မပြီးသေးဘူး။ ရေကို 15 degree အထိ နည်းနည်း နွေးပေးပြီး နောက်ထပ် စက္ကန့် 30 ထပ် စိမ်ရသေးတယ်။ အေးတာက အေးတုန်းပဲ။ ဒါပေမဲ့ အရင်လောက် မဆိုးတော့ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Afterwards, each person could choose which trial to repeat. Most chose trial two. They chose more total pain, because it ended better."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "နောက်တော့ မေးတယ်။ ဘယ် အခေါက်ကို ပြန်လုပ်မလဲတဲ့။ လူ အများစုက ဒုတိယ အခေါက်ကို ရွေးတယ်။ စဉ်းစားကြည့်ရင် ထူးဆန်းတယ်။ ဒုတိယ အခေါက်က နာရတဲ့ အချိန် ပို ကြာတယ်။ ဒါပေမဲ့ သူတို့က အဲဒါကိုပဲ ရွေးတယ်။ အကြောင်းက တစ်ခုပဲ။ အဆုံးပိုင်းမှာ သက်သာသွားလို့။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The rule"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "စည်းမျဉ်းက ဒီလိုပါ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Psychologist Daniel Kahneman calls this the peak-end rule. When people look back at an experience, they do not average the whole thing. They judge it by two moments: the peak, the most intense point, and the end, how it finished."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "စိတ်ပညာရှင် Daniel Kahneman က ဒါကို peak-end rule လို့ နာမည် ပေးထားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Everything in the middle mostly washes out. And the length of the experience barely counts at all. Kahneman calls that duration neglect. A bad experience that lasts twice as long is not remembered as twice as bad. What matters is how bad the worst moment was, and whether it ended gently or badly."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ပြောချင်တာက ဒီလိုပါ။ လူတစ်ယောက် အတွေ့အကြုံ တစ်ခုကို ပြန် အမှတ်ရရင် အစကနေ အဆုံး ဘာဖြစ်ခဲ့လဲ အကုန် ပြန် မစဉ်းစားဘူး။ မှတ်မိတာက နှစ်ခုပဲ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "တစ်ခုက peak။ အဲဒီ အတွေ့အကြုံထဲမှာ အပြင်းဆုံး၊ အခံရဆုံး အချိန်။ နောက်တစ်ခုက end။ နောက်ဆုံး ဘယ်လို ပြီးသွားလဲ ဆိုတာ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "အလယ်မှာ ဘာတွေ ဖြစ်ခဲ့လဲ ဆိုတာ အများစုက မှတ်ဉာဏ်ထဲမှာ မကျန်ဘူး။ ဘယ်လောက် ကြာခဲ့လဲ ဆိုတာလည်း အရေးမပါဘူး။ Kahneman က ဒါကို duration neglect လို့ ခေါ်တယ်။ အတွေ့အကြုံ တစ်ခုက နှစ်ဆ ပို ကြာသွားလည်း နှစ်ဆ ပို ဆိုးတယ်လို့ မခံစားရဘူး။ မှတ်မိတာက အဆိုးဆုံးအချိန် ဘယ်လောက် ဆိုးလဲ နဲ့ အဆုံးသတ်က ဘယ်လိုလဲ၊ ဒါပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "It held up in real hospitals"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "တကယ့် ဆေးရုံတွေမှာလည်း မှန်တယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "This was not just a lab trick. Kahneman and Donald Redelmeier studied real colonoscopy patients, tracking their pain minute by minute during the procedure, then asking afterwards how bad it had been."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒါက စမ်းသပ်ခန်းထဲမှာပဲ ဖြစ်တာ မဟုတ်ဘူး။ ဆေးရုံမှာလည်း ဒီအတိုင်းပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The remembered pain matched the peak and the end, not the total, and not the length. In a later trial, one group of patients had the procedure drawn out a little longer at the end, with the instrument held still. Uncomfortable, but not painful. Those patients rated the whole procedure as less unpleasant, and they were more likely to come back for their follow-up. A gentler ending changed what the whole experience meant in their memory."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Kahneman နဲ့ Donald Redelmeier က colonoscopy လူနာတွေကို လေ့လာတယ်။ စစ်ဆေး နေတုန်းမှာ မိနစ်တိုင်း ဘယ်လောက် နာလဲ မှတ်ထားတယ်။ ပြီးသွားမှ လူနာကို မင်း ဘယ်လောက် နာခဲ့လဲ ပြန် မေးတယ်။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "လူနာတွေ ဖြေတဲ့ အဖြေကို မိနစ်တိုင်း မှတ်ထားတဲ့ မှတ်တမ်းနဲ့ တိုက်ကြည့်တော့ စုစုပေါင်း နာတဲ့ ပမာဏနဲ့ မကိုက်ဘူး။ ကြာချိန်နဲ့လည်း မကိုက်ဘူး။ ကိုက်တာက peak နဲ့ end ပဲ။ အနာဆုံး အချိန်နဲ့ နောက်ဆုံး အချိန်ပဲ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "နောက် စမ်းသပ်ချက်တစ်ခုမှာ လူနာ တစ်စုကို တမင် အချိန် ပို ဆွဲထားတယ်။ အဆုံးပိုင်းမှာ ကိရိယာကို မရွေ့ဘဲ ဒီအတိုင်း ထားတယ်။ နေထိုင် မကောင်းပေမဲ့ မနာဘူး။ အချိန် ပို ကြာသွားတဲ့ အဲဒီ လူနာတွေက စစ်ဆေးမှု တစ်ခုလုံးကို ပို သက်သာတယ် ပြောတယ်။ နောက် ပြန် စစ်ရမယ့် အချိန်ကျတော့လည်း ပြန်လာဖို့ ဆန္ဒ ပို ရှိတယ်။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "အချိန် ပို ကြာသွားတယ်။ ဒါပေမဲ့ အဆုံးသတ် ပျော့သွားတော့ မှတ်ဉာဏ်ထဲမှာ တစ်ခုလုံး သက်သာသွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Your product will be judged the same way"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မင်း product ကိုလည်း အဲဒီလိုပဲ ဆုံးဖြတ်မှာ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Your users will not review your whole flow. They will carry away the worst moment and the last moment."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း product လည်း ဒီအတိုင်းပဲ အဆုံးဖြတ် ခံရတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The peak in most products is not hard to find. The form that ate everything they typed and showed a red error. The surprise fee on the final step. The loading spinner that died with no explanation. One peak like that can outweigh twenty smooth screens, because the smooth screens are the middle, and the middle is what memory throws away."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "User က မင်း flow အစကနေ အဆုံး ပြန် စဉ်းစားနေမှာ မဟုတ်ဘူး။ သူ ယူသွားမှာက နှစ်ခုပဲ။ အဆိုးဆုံး အခိုက်အတန့် နဲ့ နောက်ဆုံး အခိုက်အတန့်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "And the end is the screen designers treat as an afterthought. The success page. The confirmation email. The last step of cancelling. In memory, that screen is not the afterthought. It is half the verdict."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Peak က product တွေမှာ ရှာရ လွယ်တယ်။ User ရိုက်ထားသမျှ အကုန် ပျောက်သွားပြီး error အနီကြီး ထွက်လာတဲ့ form မျိုး။ နောက်ဆုံး အဆင့်ကျမှ ပေါ်လာတဲ့ မသိထားတဲ့ fee မျိုး။ ဘာ အကြောင်းမှ မပြဘဲ ရပ်သွားတဲ့ loading spinner မျိုး။ အဲဒီလို တစ်ကြိမ်ပဲ ခံလိုက်ရရင် screen ကောင်းကောင်း အခု နှစ်ဆယ် လုပ်ထားတာကို အဲဒီ တစ်ကြိမ်က ဖုံးသွားနိုင်တယ်။ Screen ကောင်းတွေက အလယ်မှာ ရှိတာကိုး။ အလယ်ဆိုတာ မှတ်ဉာဏ်က ပစ်တဲ့ နေရာပဲ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "End ကတော့ designer တွေ နောက်ဆုံးမှ စဉ်းစားတဲ့ အပိုင်း ဖြစ်နေတတ်တယ်။ Success page၊ confirmation email၊ cancel လုပ်ပြီးတဲ့ နောက်ဆုံး screen ပေါ့။ ဒါပေမဲ့ user ရဲ့ မှတ်ဉာဏ်ထဲမှာ အဲဒါက အသေးအဖွဲ မဟုတ်ဘူး။ ဆုံးဖြတ်ချက်ရဲ့ ထက်ဝက်က အဲဒါပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Design the two moments on purpose"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "အခိုက်အတန့် နှစ်ခုကို တမင် design လုပ်ပါ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "You cannot make every screen great. You do not need to. Spend your effort where memory actually keeps score."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Screen တိုင်းကို ပြီးပြည့်စုံအောင် လုပ်စရာ မလိုဘူး။ လုပ်လို့လည်း မရဘူး။ မှတ်ဉာဏ်က အမှတ် ပေးတဲ့ နေရာ နှစ်ခုမှာပဲ အား စိုက်ပါ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Find your worst peak and soften it. One clear error message that saves the user's work is worth more than ten small polish tasks.\n- Design the ending like it matters, because it does. A confirmation that says what happened, what happens next, and that everything is safe is not decoration. It is the memory your user takes home.\n- End waits well. People whose queue suddenly moves faster at the end rate the whole wait as satisfying, even if most of it was slow. A final step that flies leaves a better memory than a steady, average one.\n- Do not poison the end. A cancellation flow that finishes with guilt and dark patterns takes a decent product and files it in memory as a bad one."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- အဆိုးဆုံး peak ကို အရင် ရှာပါ။ ပြီးရင် အဲဒါကို ပျော့အောင် လုပ်ပါ။ User ရိုက်ထားတာ မပျောက်အောင် ကယ်ပေးတဲ့ error message တစ်ခုက polish အလုပ်အသေး ဆယ်ခုထက် ပို တန်တယ်။\n- အဆုံးသတ်ကို သေချာ design လုပ်ပါ။ ဘာဖြစ်သွားပြီလဲ၊ နောက်တစ်ဆင့် ဘာလဲ၊ အကုန် အဆင်ပြေတယ် ဆိုတာ ပြောပြတဲ့ confirmation page က အလှ မဟုတ်ဘူး။ အဲဒါကိုက user ယူသွားမယ့် မှတ်ဉာဏ်ပဲ။\n- စောင့်ရတဲ့ အပိုင်းရှိရင် အဆုံးပိုင်းကို မြန်အောင် လုပ်ပါ။ တန်းစီ စောင့်ရင်း နောက်ပိုင်းကျမှ ရုတ်တရက် မြန်သွားတဲ့ အခါ လူတွေက တစ်ချိန်လုံး မြန်ခဲ့သလိုလို ကျေနပ်တယ်။ အစပိုင်း နှေးခဲ့တာကို မေ့သွားတယ်။\n- အဆုံးသတ်မှာ user ကို မခြိမ်းခြောက်ပါနဲ့။ Cancel လုပ်တာကို အပြစ်ရှိသလို ပြောပြီး dark pattern တွေနဲ့ ပြီးတဲ့ flow က product ကောင်းကို လူတွေရဲ့ မှတ်ဉာဏ်ထဲမှာ product ဆိုး ဖြစ်သွားအောင် လုပ်တယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The one sentence to keep"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မှတ်ထားရမယ့် စာကြောင်း တစ်ကြောင်း"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "People will forget most of what your product did. They will remember the worst moment and the last moment. So decide what those two moments are, before your users' memory decides for you."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "လူတွေက မင်း product လုပ်ခဲ့တာ အများစုကို မေ့သွားမယ်။ အမှန်ပဲ။ မှတ်မိမှာက အဆိုးဆုံး အချိန်နဲ့ နောက်ဆုံး အချိန်ပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Keep learning\nLaws of UX: Peak-End Rule · Cheatsheet: UX Laws Cheatsheet · Glossary: Cognitive Load · Mental Model"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒါကြောင့် အဲဒီ နှစ်ချိန် ဘာဖြစ်မလဲ ဆိုတာကို မင်းက အရင် ဆုံးဖြတ်ထားပါ။ မဟုတ်ရင် မင်း user တွေရဲ့ မှတ်ဉာဏ်က မင်းအတွက် ဆုံးဖြတ်သွားလိမ့်မယ်။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "ဆက်လေ့လာဖို့\nLaws of UX: Peak-End Rule · Cheatsheet: UX Laws Cheatsheet · Glossary: Cognitive Load · Mental Model"
+          }
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- \"Peak–end rule\", Wikipedia — https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule\n- \"Duration neglect\", Wikipedia — https://en.wikipedia.org/wiki/Duration_neglect"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "article-003-jakobs-law-mental-models",
+      "category": "Articles",
+      "titleEn": "Your Users Learned Your Product on Someone Else's App",
+      "titleMy": "မင်း User တွေက မင်း Product သုံးနည်းကို တခြား App တွေဆီမှာ သင်ခဲ့တာ",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: Articles\nTopic: Mental Models and Jakob's Law (Jakob Nielsen)\nNote: Burmese written with the validated clarity method — short sentences, thought in Burmese first."
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Trained before they arrived"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မရောက်ခင်ကတည်းက သင်ပြီးသား"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Open your app in front of a brand new user and watch. They do not read anything. They tap your logo to go home. They look for the cart in the top right. They expect the magnifying glass to mean search."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "User အသစ် တစ်ယောက်ရှေ့မှာ မင်း app ကို ဖွင့်ပြလိုက်။ ကြည့်နေပါ။ သူက ဘာမှ မဖတ်ဘူး။ Home ပြန်ဖို့ logo ကို နှိပ်တယ်။ Cart ကို ညာဘက် အပေါ်မှာ ရှာတယ်။ မှန်ဘီလူး icon တွေရင် search လို့ သိတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Where did they learn your product? They never used it before. The answer is simple. They learned it everywhere else."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "သူ မင်း product သုံးနည်းကို ဘယ်မှာ သင်ခဲ့တာလဲ။ အရင်က တစ်ခါမှ မသုံးဖူးဘူး။ အဖြေက ရှင်းပါတယ်။ တခြား နေရာတွေမှာ သင်ခဲ့တာ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The map inside the head"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ခေါင်းထဲက မြေပုံ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Every person carries a mental model: a small, rough map of how things like this work. It is not the real system. It is their best guess about the system, built from every app, site and machine they have used before."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "လူ တစ်ယောက်ချင်းစီရဲ့ ခေါင်းထဲမှာ mental model တစ်ခု ရှိတယ်။ ဒီလို အရာတွေ ဘယ်လို အလုပ်လုပ်လဲ ဆိုတဲ့ မြေပုံ သေးသေးလေး တစ်ခုပေါ့။ အဲဒါက တကယ့် system မဟုတ်ဘူး။ သူတို့ အရင်က သုံးခဲ့သမျှ app တွေ၊ site တွေ၊ စက်တွေကနေ တည်ဆောက်ထားတဲ့ ခန့်မှန်းချက် တစ်ခုပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "When your product matches that map, people feel it is easy. They are not complimenting your design talent. They are saying your map and their map are the same map. When it does not match, every tap becomes a question, and questions are tiring."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း product က အဲဒီ မြေပုံနဲ့ ကိုက်ရင် လူတွေက လွယ်တယ်လို့ ခံစားရတယ်။ သူတို့က မင်းရဲ့ design အရည်အချင်းကို ချီးကျူးနေတာ မဟုတ်ဘူး။ မင်းရဲ့ မြေပုံနဲ့ သူတို့ မြေပုံ တစ်ခုတည်း ဖြစ်နေလို့ လွယ်တာပါ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "မကိုက်ရင် ဘယ်လို ဖြစ်လဲ။ နှိပ်တဲ့ အကြိမ်တိုင်းက မေးခွန်း တစ်ခု ဖြစ်သွားတယ်။ မေးခွန်းများရင် လူ မောတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Jakob's Law"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "Jakob's Law"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "In 2000, usability researcher Jakob Nielsen put this into one sentence: users spend most of their time on other sites. Not yours. Other sites."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "2000 ခုနှစ်မှာ usability သုတေသီ Jakob Nielsen က ဒါကို စာကြောင်း တစ်ကြောင်းနဲ့ ပြောသွားတယ်။ User တွေက သူတို့ အချိန် အများစုကို တခြား site တွေမှာ ကုန်ဆုံးတယ်။ မင်းဟာမှာ မဟုတ်ဘူး။ တခြားဟာတွေမှာ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Follow the logic and it gets uncomfortable. The mental model your users bring was trained by your competitors, by the big platforms, by a hundred apps you have never seen. Your product is the exception in their day, not the rule. So they arrive wanting one thing: for your product to work the same way as all the sites they already know."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "အဲဒီ logic ကို လိုက်ကြည့်ရင် နည်းနည်း ခံရခက်တယ်။ မင်း user တွေ ယူလာတဲ့ mental model ကို သင်ပေးခဲ့တာက မင်းရဲ့ ပြိုင်ဘက်တွေ။ Platform အကြီးတွေ။ မင်း တစ်ခါမှ မမြင်ဖူးတဲ့ app အခု ရာနဲ့ချီ။ မင်း product က သူတို့ တစ်နေ့တာမှာ ပုံမှန် မဟုတ်တဲ့ ခြွင်းချက် တစ်ခုပဲ။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒါကြောင့် သူတို့ ရောက်လာရင် လိုချင်တာက တစ်ခုပဲ။ မင်း product က သူတို့ သိပြီးသား site တွေလိုပဲ အလုပ်လုပ်ဖို့။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Free training, if you take it"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "အလကား ရတဲ့ သင်တန်း"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Here is the good news. This training is free. You do not have to teach anyone that the logo goes home, that search sits at the top, that the trash can deletes, or that Escape closes the thing on top. A thousand other products already taught it, at their expense, not yours."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "သတင်းကောင်း ရှိတယ်။ ဒီ သင်တန်းက အလကား ရတယ်။ Logo နှိပ်ရင် home ပြန်တယ် ဆိုတာ ဘယ်သူ့ကိုမှ သင်စရာ မလိုဘူး။ Search က အပေါ်မှာ ရှိတယ် ဆိုတာလည်း သင်စရာ မလိုဘူး။ အမှိုက်ပုံး icon က delete ဆိုတာလည်း မလိုဘူး။ Escape နှိပ်ရင် အပေါ်က ဟာ ပိတ်တယ် ဆိုတာလည်း မလိုဘူး။ တခြား product အခု ထောင်နဲ့ချီက သူတို့ ပိုက်ဆံနဲ့ သင်ပေးပြီးသား။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Every convention you keep is learning your users do not have to do. Their full attention stays free for the thing that actually makes your product different: what it does, and what it says."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း ထိန်းထားတဲ့ convention တိုင်းက user သင်စရာ မလိုတဲ့ အရာ တစ်ခုပဲ။ သူတို့ရဲ့ attention အပြည့်က တကယ် အရေးပါတာ အတွက် လွတ်နေတယ်။ မင်း product တကယ် ကွာခြားတဲ့ အပိုင်းပေါ့။ သူ ဘာလုပ်ပေးလဲ၊ သူ ဘာပြောလဲ ဆိုတာအတွက်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "When the map breaks"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မြေပုံ ပျက်သွားရင်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Break the model by accident, and users do not think your product is creative. They think it is broken, or worse, they think they are stupid. Then they leave, and a competitor whose map matches theirs gets the customer."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Model ကို မတော်တဆ ဖျက်မိရင် user က မင်း product ကို creative ဖြစ်တယ်လို့ မထင်ဘူး။ ပျက်နေတယ်လို့ ထင်တယ်။ ဒါမှမဟုတ် သူတို့ကိုယ်သူတို့ တုံးတယ်လို့ ထင်တယ်။ အဲဒါဆို ပို ဆိုးတယ်။ ပြီးရင် သူတို့ ထွက်သွားတယ်။ သူတို့ မြေပုံနဲ့ ကိုက်တဲ့ ပြိုင်ဘက်က customer ကို ရသွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Snapchat learned the public version of this lesson in 2018. Its redesign moved familiar things around and mixed stories with private messages in ways that broke its own users' mental models. Over a million people signed a petition asking for the old app back. These were not new users failing to learn. They were loyal users whose map had been torn up overnight."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Snapchat က ဒီ သင်ခန်းစာကို 2018 ခုနှစ်မှာ လူအများရှေ့မှာ သင်ခဲ့ရတယ်။ သူတို့ရဲ့ redesign က သုံးနေကျ နေရာတွေကို ရွှေ့ပစ်တယ်။ Stories နဲ့ private message တွေကိုလည်း user တွေ မမျှော်လင့်ထားတဲ့ ပုံစံနဲ့ ရောပစ်တယ်။ User တွေရဲ့ mental model ပျက်သွားတယ်။ လူ တစ်သန်းကျော်က app အဟောင်းကို ပြန်ပေးပါဆိုပြီး လက်မှတ် ထိုးတယ်။"
+          }
+        },
+        {
+          "en": null,
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒါက အသစ်တွေ သင်မရတာ မဟုတ်ဘူး။ သစ္စာရှိတဲ့ user တွေရဲ့ မြေပုံကို တစ်ညတည်းနဲ့ ဆုတ်ဖြဲပစ်လိုက်တာ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Breaking it on purpose, rarely"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "တမင် ဖျက်လို့ ရတယ်။ ဒါပေမဲ့ ရှားရှားပါးပါးပဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Sometimes the new model is worth it. Pull to refresh was once new: Loren Brichter built it into the Tweetie app in 2009, and within a few years nearly every app on Earth had copied it. It spread because the payoff was instant and the gesture taught itself."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "တခါတရံ model အသစ်က တန်တယ်။ Pull to refresh ကို ကြည့်။ တစ်ချိန်က အဲဒါ အသစ် ဖြစ်ခဲ့တယ်။ Loren Brichter က 2009 ခုနှစ်မှာ Tweetie app ထဲ ထည့်ခဲ့တယ်။ နှစ်အနည်းငယ် အတွင်း ကမ္ဘာပေါ်က app အားလုံးနီးပါး လိုက်လုပ်တယ်။ အကျိုးက တန်း မြင်ရတယ်။ သုံးရင်းနဲ့ သူ့အလိုလို တတ်သွားတယ်။ ဒါကြောင့် ပြန့်သွားတာ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "That is the test. Break a convention only when the gain is obvious in the first ten seconds, and the new way explains itself while people use it. Novelty that needs a manual is a tax. Novelty that teaches itself is a feature."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "စမ်းသပ်ချက်က ဒါပဲ။ Convention တစ်ခုကို ဖျက်တော့မယ်ဆိုရင် အကျိုးက ပထမ ဆယ်စက္ကန့်မှာ တန်း မြင်ရရမယ်။ နည်းလမ်း အသစ်က သုံးနေရင်းနဲ့ သူ့ကိုယ်သူ ရှင်းပြနိုင်ရမယ်။ Manual ဖတ်ရတဲ့ ဆန်းသစ်မှုက အခွန်ပဲ။ သူ့အလိုလို တတ်သွားတဲ့ ဆန်းသစ်မှုကမှ feature ပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Four working rules"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "အလုပ်ဖြစ် စည်းမျဉ်း လေးခု"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Be boring in the moves, original in the meaning. Navigation, search, checkout and settings should work the way users already expect. Save your originality for your content and your value.\n- Price the learning cost before you invent. A pattern nobody knows costs every single user time and attention. Ask what that cost buys.\n- If you must change something learned, build a bridge. Keep the old way working for a while, or guide people across inside the product. Do not tear up the map overnight.\n- Test with first-time users, never your own team. Your team has already learned your model, so they can no longer see where it breaks for everyone else."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- ရွေ့လျားပုံမှာ ရိုးရိုးပဲ လုပ်ပါ။ အဓိပ္ပာယ်မှာ ဆန်းပါ။ Navigation, search, checkout နဲ့ settings က user တွေ မျှော်လင့်ထားတဲ့ အတိုင်းပဲ အလုပ်လုပ်ရမယ်။ ဆန်းသစ်မှုကို content နဲ့ မင်း ပေးတဲ့ တန်ဖိုးအတွက် ချန်ထားပါ။\n- မဆန်းခင် သင်ယူရမယ့် ကုန်ကျမှုကို အရင် တွက်ပါ။ ဘယ်သူမှ မသိတဲ့ pattern တစ်ခုက user တိုင်းရဲ့ အချိန်နဲ့ attention ကို ကုန်စေတယ်။ အဲဒီ ကုန်ကျမှုက ဘာကို ပြန်ရလဲ မေးပါ။\n- သုံးနေကျဟာကို ပြောင်းရတော့မယ် ဆိုရင် တံတား ဆောက်ပါ။ နည်းလမ်း အဟောင်းကို ခဏ ဆက်သုံးလို့ ရအောင် ထားပါ။ ဒါမှမဟုတ် product ထဲမှာပဲ လမ်းပြပြီး ခေါ်သွားပါ။ မြေပုံကို တစ်ညတည်း မဆုတ်ဖြဲပါနဲ့။\n- ပထမဆုံးသုံးတဲ့ user တွေနဲ့ပဲ စမ်းပါ။ မင်း team နဲ့ ဘယ်တော့မှ မစမ်းပါနဲ့။ မင်း team က မင်းရဲ့ model ကို တတ်ပြီးသားကိုး။ တခြား လူတွေအတွက် ဘယ်နေရာမှာ ပျက်နေလဲ သူတို့ မမြင်နိုင်တော့ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The one sentence to keep"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "မှတ်ထားရမယ့် စာကြောင်း တစ်ကြောင်း"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "You do not get to design your users' mental model. A thousand other products already did that for you. You only get to choose whether your product agrees with it, or fights it at your users' expense."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း user တွေရဲ့ mental model ကို မင်းက design လုပ်ခွင့် မရှိဘူး။ တခြား product အခု ထောင်နဲ့ချီက မင်းအတွက် လုပ်ပြီးသွားပြီ။ မင်း ရွေးခွင့်ရှိတာက တစ်ခုပဲ။ မင်း product က အဲဒီ model နဲ့ သဘောတူမလား။ ဒါမှမဟုတ် user တွေ ပေးဆပ်ရပြီး သူနဲ့ တိုက်ခိုက်မလား ဆိုတာပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Keep learning\nGlossary: Mental Model · Laws of UX: Jakob's Law · Cheatsheet: UX Laws Cheatsheet"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဆက်လေ့လာဖို့\nGlossary: Mental Model · Laws of UX: Jakob's Law · Cheatsheet: UX Laws Cheatsheet"
+          }
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- \"Jakob's Law: Users Expect Your Site to Work Like the Rest\", UX Guidelines — https://www.ux-guidelines.com/jakobs-law.html\n- TailThemes, \"Jakob's Law in UX: why familiar navigation wins\" — https://tailthemes.com/blog/jakobs-law-navigation\n- Ulster University blog, \"IXD 303 – Jakob's Law\" — https://blogs.ulster.ac.uk/matthewgrissam/2022/05/02/ixd-303-jakobs-law/"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "case-study-001-mcdonalds-kiosks",
+      "category": "Case Studies",
+      "titleEn": "The Psychology Inside McDonald's Self-Serve Kiosks",
+      "titleMy": "McDonald's Self-Serve Kiosk တွေရဲ့ နောက်ကွယ်က Psychology",
+      "blocks": [
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Category: Case Studies\nCompany: McDonald's\nCover image: assets/case-study-001-mcdonalds-kiosk.jpg (McDonald's self-serve kiosks. Source: The MBS Group — https://www.thembsgroup.co.uk/internal/the-future-of-service-how-technology-is-transforming-the-restaurant-sector/)"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Skills you'll build\n✓ Why ordering from a screen feels easier than ordering from a person\n✓ How photos and missing options change what ends up on your tray\n✓ How a flow can feel like your own choice while it quietly steers you"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Skills you'll build\n✓ Screen ကနေ မှာတာက လူကို မှာတာထက် ဘာလို့ ပိုလွယ်တယ် ခံစားရလဲ\n✓ Photo တွေနဲ့ ပျောက်နေတဲ့ option တွေက မင်း tray ထဲ ရောက်လာတာကို ဘယ်လို ပြောင်းပစ်လဲ\n✓ Flow တစ်ခုက ကိုယ့်ရွေးချယ်မှုပဲလို့ ခံစားရအောင် လုပ်ပြီး နောက်ကွယ်ကနေ ဘယ်လို ညွှန်နေလဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "McDonald's spent around 2 billion dollars putting self-serve kiosks into its restaurants. The kiosks are not just ordering screens. Every step is built around how people actually decide. Growth.Design walked through one kiosk journey and found psychology at almost every step, and gave the journey an ethical score of D at the end. Here is what the kiosk is really doing."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "McDonald's က self-serve kiosk တွေအတွက် ဒေါ်လာ 2 billion လောက် သုံးခဲ့တယ်။ ဒီ kiosk တွေက မှာဖို့ screen သက်သက် မဟုတ်ဘူး။ အဆင့်တိုင်းကို လူတွေ တကယ် ဆုံးဖြတ်တဲ့ ပုံစံနဲ့ တည်ဆောက်ထားတယ်။ Growth.Design က kiosk ခရီးစဉ် တစ်ခုကို အစအဆုံး လိုက်ကြည့်ပြီး အဆင့်တိုင်းနီးပါးမှာ psychology တွေ တွေ့ခဲ့တယ်။ အဆုံးမှာ ethical score ကို D လို့ ပေးခဲ့တယ်။ Kiosk က တကယ် ဘာလုပ်နေလဲ ကြည့်ရအောင်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "1. The app push comes first"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "1. App ကို အရင် တွန်းတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Before you order anything, the home screen pushes MyMcDonald's Rewards at you. Redeem your points here. Order and earn points, scan the code in the app. The plain Start Order option, the one that earns no points, sits smaller beside it. And the push does not stop there. It comes back again later in the journey."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဘာမှ မမှာခင်မှာ home screen က MyMcDonald's Rewards ကို အရင် ပြတယ်။ Point တွေ ဒီမှာ ထုတ်ပါ။ App ထဲက code ကို scan လုပ်ပြီး မှာရင် point ရတယ်။ Point မရတဲ့ Start Order ကတော့ ဘေးမှာ သေးသေးလေး ရှိတယ်။ တွန်းအားက အဲဒီမှာတင် မရပ်ဘူး။ ခရီးစဉ် နောက်ပိုင်းမှာလည်း ထပ်ပေါ်လာသေးတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Tracking and Retention\nIf you order through the app, McDonald's can track what you buy and show you personal offers next time. An app user who keeps coming back is worth more than a one-time kiosk user. So the kiosk sells the app first, and the burger second."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Tracking and Retention\nApp နဲ့ မှာရင် McDonald's က မင်း ဘာဝယ်လဲ သိတယ်။ နောက်တစ်ခါ မင်းနဲ့ ကိုက်တဲ့ offer ကို ပြလို့ ရတယ်။ တစ်ခါပဲ လာတဲ့ user ထက် ထပ်ထပ် ပြန်လာတဲ့ app user က ပိုတန်ဖိုး ရှိတယ်။ ဒါကြောင့် kiosk က app ကို အရင် ရောင်းတယ်။ Burger က နောက်မှ လာတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "2. The menu is organised by job, not by food"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "2. Menu ကို အစားအစာနဲ့ မခွဲဘူး၊ job နဲ့ ခွဲတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "You do not land in one giant menu. The kiosk starts with popular picks and with reasons people actually walk in: I want a burger. I want something healthier. I am eating with friends. I just need a drink."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Menu အကြီးကြီးထဲကို တန်းမရောက်ဘူး။ Kiosk က popular picks တွေနဲ့ စတယ်။ ပြီးရင် လူတွေ တကယ် ဝင်လာတဲ့ အကြောင်းရင်းတွေနဲ့ ခွဲထားတယ်။ Burger စားချင်တယ်။ Healthy ဖြစ်တာ လိုချင်တယ်။ သူငယ်ချင်းတွေနဲ့ စားနေတယ်။ အအေး တစ်ခွက်ပဲ လိုတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Jobs-To-Be-Done, with Hick's Law\nPeople arrive with a job in their head, not a wish to read a full menu. Fewer, job-shaped starting points mean less friction and faster decisions."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Jobs-To-Be-Done, with Hick's Law\nလူတွေက menu တစ်ခုလုံး ဖတ်ချင်လို့ လာတာ မဟုတ်ဘူး။ ခေါင်းထဲမှာ job တစ်ခုနဲ့ လာတာ။ အစမှတ်ကို job ပုံစံနဲ့ နည်းနည်း ခွဲထားတော့ ရွေးရ မြန်တယ်။ ပွတ်တိုက်မှုလည်း နည်းတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "3. Photos do the thinking"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "3. Photo တွေက စဉ်းစားပေးတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The next screens lean on bundles backed by data and on big, appetising photos of the food."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "နောက်ပိုင်း screen တွေမှာ data နဲ့ ရွေးထားတဲ့ bundle တွေ ပြတယ်။ အစားအစာ photo ကြီးကြီးတွေလည်း ပြတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — System 1 Thinking\nYour fast brain chooses what looks good. Your slow brain compares and calculates. The kiosk keeps feeding the fast brain, so the slow brain never really wakes up."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — System 1 Thinking\nဦးနှောက်မှာ မြန်တဲ့ အပိုင်းက လှတာကို ရွေးတယ်။ နှေးတဲ့ အပိုင်းက နှိုင်းယှဉ်တယ်၊ တွက်ချက်တယ်။ Kiosk က မြန်တဲ့ အပိုင်းကိုပဲ ဆက်ကျွေးနေတော့ နှေးတဲ့ အပိုင်းက နိုးကို မနိုးလာဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "4. Calories become fine print"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "4. Calorie က စာလုံးသေး ဖြစ်သွားတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The burger list is packed with large photos. The calorie numbers, which the law requires, are there too. Just small, quiet, and easy to scroll past."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Burger စာရင်းမှာ photo ကြီးကြီးတွေ ပြည့်နေတယ်။ ဥပဒေအရ ပြရတဲ့ calorie ကိန်းဂဏန်းတွေလည်း ပါတယ်။ ဒါပေမဲ့ သေးသေးလေး၊ တိတ်တိတ်လေး။ ကျော်သွားဖို့ လွယ်တယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Sensory Appeal\nSenses first, numbers later. When a juicy photo wins your attention, a small line of text about calories loses. In the Growth.Design walkthrough, the narrator's brain ignored the calories completely and went straight for the Double Big Mac."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Sensory Appeal\nခံစားချက်က အရင် လာတယ်။ ကိန်းဂဏန်းက နောက်မှ လာတယ်။ ဆွဲဆောင်တဲ့ photo က အာရုံကို ရသွားရင် calorie စာကြောင်း သေးသေးလေးက ရှုံးတယ်။ Growth.Design ရဲ့ ခရီးစဉ်ထဲမှာဆိုရင် ပြောသူက calorie ကို လုံးဝ သတိမထားမိဘဲ Double Big Mac ဆီ တန်းသွားခဲ့တယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "5. The upgrade question has only one easy answer"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "5. Upgrade မေးခွန်းမှာ အဖြေ လွယ်လွယ် တစ်ခုပဲ ရှိတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "When the kiosk offers the meal upgrade, the calories disappear. Size is shown by price. And there is no small option on the screen."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Kiosk က meal upgrade ကို ကမ်းလှမ်းတဲ့အခါ calorie က ပျောက်သွားတယ်။ Size ကို price နဲ့ပဲ ပြတယ်။ Screen ပေါ်မှာ small ဆိုတဲ့ option လည်း မရှိဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Framing\nHow a choice is presented changes the choice. Remove the health numbers and the small size, and the question stops being about your body. It becomes a small price question: fries and a drink, yes or no? Without a small, large starts to feel normal."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Framing\nရွေးချယ်မှုကို ပြတဲ့ ပုံစံက ရွေးချယ်မှုကို ပြောင်းတယ်။ ကျန်းမာရေး ကိန်းဂဏန်းနဲ့ small size ကို ဖယ်လိုက်ရင် မေးခွန်းက ခန္ဓာကိုယ် အကြောင်း မဟုတ်တော့ဘူး။ Price မေးခွန်း သေးသေးလေး ဖြစ်သွားတယ်။ Fries နဲ့ အအေး ယူမလား၊ မယူဘူးလား။ Small မရှိတော့ large က ပုံမှန်လို ဖြစ်လာတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "6. Just one more thing"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "6. နောက်တစ်ခုလောက် ယူပါဦး"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "You finish your order, and the kiosk is not finished with you. It suggests extras, the way a supermarket puts sweets by the checkout. On that suggestion screen, the rest of your order is not shown."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "မင်း order ပြီးသွားပြီ။ ဒါပေမဲ့ kiosk က မပြီးသေးဘူး။ Supermarket က cashier နားမှာ သကြားလုံး တန်းစီထားသလို ထပ်ဖြည့်စရာတွေ အကြံပြုတယ်။ အဲဒီ screen မှာတော့ မင်း မှာထားပြီးသား စာရင်းကို မပြဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Shameless Machines\nThere is no cashier, so there is no judgment. People order more freely from a machine than from a person watching them. And if you cannot see how much you have already ordered, one more item feels like nothing. Growth.Design reports that these kiosks increased McDonald's revenue by 15%."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Shameless Machines\nCashier မရှိတော့ အကဲဖြတ်မယ့် လူလည်း မရှိဘူး။ လူကြည့်နေတာထက် machine ရှေ့မှာ လူက ပိုလွတ်လွတ်လပ်လပ် မှာတယ်။ မှာထားပြီးသား စာရင်းကို မမြင်ရရင် နောက်တစ်ခု ထပ်ယူတာက ဘာမှ မဟုတ်သလို ခံစားရတယ်။ ဒီ kiosk တွေကြောင့် McDonald's revenue 15% တက်သွားတယ်လို့ Growth.Design က ပြောထားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The honest summary"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "အမှန်အတိုင်း အကျဉ်းချုပ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "None of these tricks is magic. Each one is small. But stacked end to end, they move real money, and the person at the kiosk walks away with more food than they planned. That is the real lesson here. Take your own product's flow, go through it step by step, and at every step ask one question: whose interest is this design serving right now?"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "ဒီလှည့်ကွက်တွေထဲမှာ မှော်ဆန်တာ တစ်ခုမှ မပါဘူး။ တစ်ခုစီက သေးသေးလေးပဲ။ ဒါပေမဲ့ အစအဆုံး စုလိုက်ရင် ပိုက်ဆံ တကယ် ရွေ့တယ်။ Kiosk ရှေ့က လူကလည်း သူ စီစဉ်ထားတာထက် ပိုများတဲ့ အစားအစာနဲ့ ပြန်ထွက်သွားတယ်။ တကယ့် သင်ခန်းစာက အဲဒါပဲ။ မင်း product ရဲ့ flow ကို အဆင့်လိုက် လိုက်ကြည့်ပါ။ အဆင့်တိုင်းမှာ မေးခွန်း တစ်ခုပဲ မေးပါ။ ဒီ design က အခု ဘယ်သူ့ အကျိုးအတွက် အလုပ်လုပ်နေတာလဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Reference: Growth.Design, \"The Psychology Behind McDonald's $2 Billion Self-Serve Kiosks\" — https://growth.design/case-studies/mcdonalds-self-serve-ux"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "ကိုးကား: Growth.Design, \"The Psychology Behind McDonald's $2 Billion Self-Serve Kiosks\" — https://growth.design/case-studies/mcdonalds-self-serve-ux"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "case-study-002-airbnb-trust-paired",
+      "category": "Case Studies",
+      "titleEn": "How Airbnb Designed Strangers to Trust Each Other",
+      "titleMy": "Airbnb က သူစိမ်းတွေ တစ်ယောက်ကို တစ်ယောက် ယုံလာအောင် ဘယ်လို Design လုပ်ခဲ့လဲ",
+      "blocks": [
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Category: Case Studies · Company: Airbnb\nCover image: assets/case-study-002-airbnb-home.jpg (Source: HostnFly — https://www.hostnfly.com/blog/local-commercial/investir-local-commercial)\nFormat: each section shows English first, then Myanmar directly below it, for side-by-side checking."
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Skills you'll build"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "Skills you'll build"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "✓ How it feels different when a listing shows you a person, not just a place\n✓ Why a stranger with a hundred reviews can feel safer than a cheaper stranger with none\n✓ How one empty message box can teach you to say just enough"
+          },
+          "my": {
+            "kind": "list",
+            "text": "✓ Listing တစ်ခုက နေရာကိုပဲ မပြဘဲ လူကို ပြလိုက်ရင် ခံစားချက် ဘယ်လို ပြောင်းသွားလဲ\n✓ Review ရာနဲ့ချီ ရှိတဲ့ သူစိမ်းက review မရှိတဲ့ ဈေးသက်သာတဲ့ သူစိမ်းထက် ဘာလို့ ပို စိတ်ချရတယ် ခံစားရလဲ\n✓ Message box အလွတ် တစ်ခုက ပြောသင့်တဲ့ ပမာဏကို ဘယ်လို သင်ပေးလဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Intro"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "Intro"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Airbnb's real product was never spare rooms. It was trust. Sleeping in a stranger's home should feel dangerous, and for most people it does. Co-founder Joe Gebbia calls this the stranger-danger bias, and Airbnb's whole design is a long answer to one question: what would it take for you to hand your home, or your holiday, to someone you have never met?"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Airbnb ရဲ့ တကယ့် product က အခန်း အပိုတွေ မဟုတ်ဘူး။ Trust ပဲ။ သူစိမ်း အိမ်မှာ အိပ်ရတာ အန္တရာယ် ရှိတယ် ခံစားရမှာပဲ။ လူ အများစုက တကယ်လည်း အဲဒီလို ခံစားရတယ်။ Co-founder Joe Gebbia က ဒါကို stranger-danger bias လို့ ခေါ်တယ်။ Airbnb design တစ်ခုလုံးက မေးခွန်း တစ်ခုရဲ့ အဖြေ အရှည်ကြီးပဲ။ တစ်ခါမှ မတွေ့ဖူးတဲ့ လူတစ်ယောက်ကို မင်း အိမ်ကိုရော မင်း အားလပ်ရက်ကိုရော ယုံပြီး အပ်ဖို့ ဘာတွေ လိုမလဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "1. You meet the person before the place"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "1. နေရာကို မတွေ့ခင် လူကို အရင် တွေ့တယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "A listing never shows only rooms and prices. You see the host's face, their name, and their story, right beside the photos of the home. The product slows you down at exactly the point where a hotel site would speed you up."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Listing က အခန်းနဲ့ ဈေးကိုပဲ မပြဘူး။ အိမ်ပုံ တွေရဲ့ ဘေးမှာ host ရဲ့ မျက်နှာ၊ နာမည်နဲ့ သူ့ အကြောင်း ပါတယ်။ Hotel site ဆိုရင် မြန်မြန် လုပ်ခိုင်းမယ့် နေရာမှာ ဒီ product က မင်းကို တမင် နှေးသွားအောင် လုပ်တယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Social Proof and Similarity\nRules applied: Social Proof · Stranger-Danger Bias\nPeople relax around people who feel familiar. A face and a story turn \"a stranger's house\" into \"someone's home\", and that small shift does most of the work before any feature gets a chance."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Social Proof and Similarity\nApplied လုပ်တဲ့ rules: Social Proof · Stranger-Danger Bias\nလူက ရင်းနှီးသလို ခံစားရတဲ့ လူနားမှာ စိတ်အေးတယ်။ မျက်နှာ တစ်ခုနဲ့ အကြောင်း တစ်ခုက သူစိမ်း အိမ်ကို တစ်စုံတစ်ယောက်ရဲ့ အိမ် အဖြစ် ပြောင်းပစ်တယ်။ Feature တွေ အလှည့် မရောက်ခင်မှာပဲ အဲဒီ အပြောင်းအလဲ သေးသေးလေးက အလုပ် အများစုကို လုပ်သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "2. Reputation beats everything"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "2. Reputation က အကုန်လုံးကို နိုင်တယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Under the profile sit the reviews, written by guests who actually stayed. Airbnb studied this with Stanford. With only a few reviews, nothing much changes. But once a host passes roughly ten reviews, behaviour flips. Guests start trusting reputation more than similarity, more than whether the host feels like \"their kind of person\"."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Profile အောက်မှာ တကယ် တည်းခဲ့တဲ့ guest တွေ ရေးထားတဲ့ review တွေ ရှိတယ်။ Airbnb က ဒါကို Stanford နဲ့ အတူ လေ့လာခဲ့တယ်။ Review နည်းနည်း ရှိရုံနဲ့ ဘာမှ သိပ် မပြောင်းဘူး။ ဒါပေမဲ့ host တစ်ယောက်က review ဆယ်ခု ဝန်းကျင် ကျော်သွားရင် အခြေအနေ ပြောင်းတယ်။ Guest တွေက \"ဒီ Host က ငါတို့နဲ့ ကိုက်ညီမှုရှိလား\" ဆိုတာထက် သူ့ရဲ့ Reputation ကိုပဲ ကြည့်လာတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Reputation System\nRules applied: Social Proof · Reputation over Similarity\nWe trust people who are like us, until proof about a specific person gets strong enough. Past that point, a strong record beats gut feeling. Design lesson: if your product runs on trust, the review count is not decoration. It is the product."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Reputation System\nApplied လုပ်တဲ့ rules: Social Proof · Reputation over Similarity\nသက်သေ ခိုင်လာရင် လူက ကိုယ်နဲ့ တူတဲ့လူကို ယုံတဲ့ အကျင့်ကို ကျော်သွားတယ်။ မှတ်တမ်း ကောင်းရင် ခံစားချက်ကို နိုင်တယ်။ Design သင်ခန်းစာက ရှင်းပါတယ်။ မင်း product က trust နဲ့ သွားရတာ ဆိုရင် review အရေအတွက်က အလှဆင်ဖို့ မဟုတ်ဘူး။ အဲဒါကိုက product ပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "3. Reviews that can be honest"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "3. အမှန် ပြောရဲတဲ့ review စနစ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "There is a catch with two-way reviews. If a guest complains, the host can strike back with a bad review in return. So Airbnb hides both reviews until both sides have written theirs, then reveals them at the same time."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "နှစ်ဖက် review မှာ ပြဿနာ တစ်ခု ရှိတယ်။ Guest က အပြစ် ပြောရင် host က လက်တုံ့ပြန်တဲ့ အနေနဲ့ review ဆိုးဆိုး ပြန်ရေးနိုင်တယ်။ ဒါကြောင့် Airbnb က နှစ်ဖက်လုံး ရေးပြီးမှ review နှစ်ခုကို တစ်ပြိုင်တည်း ပြတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Double-Blind Review\nRules applied: Reciprocity · Fairness by Design\nPeople tell the truth when honesty cannot be punished. Reveal reviews together, and neither side writes to please, or to take revenge on, the other."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Double-Blind Review\nApplied လုပ်တဲ့ rules: Reciprocity · Fairness by Design\nအမှန် ပြောတာကို အပြစ် မပေးနိုင်ရင် လူက အမှန် ပြောတယ်။ Review တွေကို အတူတူ ပြလိုက်တော့ နှစ်ယောက်လုံးက ချော့လည်း မရေးဘူး။ လက်တုံ့လည်း မပြန်ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "4. The box teaches you what to say"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "4. Box က ဘာပြောရမလဲ သင်ပေးတယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Before a booking, the guest writes an introduction to the host. Airbnb learned that this message decides a lot. Write too little, and hosts say no. Share far too much, and hosts also say no. So the message box is sized to suggest the right length, and prompts guide you on what to share."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Booking မလုပ်ခင် guest က host ဆီကို မိတ်ဆက် message ရေးရတယ်။ Airbnb က အဲဒီ message က အများကြီး ဆုံးဖြတ်တယ် ဆိုတာ သိခဲ့တယ်။ နည်းနည်း ရေးရင် host က ငြင်းတယ်။ အရမ်း များများ ရေးပြန်ရင်လည်း ငြင်းတယ်။ ဒါကြောင့် message box ကို ရေးသင့်တဲ့ အရှည်လောက် အရွယ် လုပ်ထားတယ်။ Prompt တွေနဲ့လည်း ဘာတွေ မျှရမလဲ လမ်းပြတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Guided Self-Disclosure\nRules applied: Input Quality · Disclosure\nTrust needs the right amount of information, not the most information. A well-sized box and the right prompts quietly raise the quality of what people write, without a single rule being enforced."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Guided Self-Disclosure\nApplied လုပ်တဲ့ rules: Input Quality · Disclosure\nTrust က သတင်း အများဆုံး မလိုဘူး။ လိုတဲ့ ပမာဏပဲ လိုတယ်။ အရွယ် မှန်တဲ့ box နဲ့ prompt တွေက စည်းကမ်း တစ်ခု မချဘဲ လူတွေ ရေးတဲ့ စာရဲ့ အရည်အသွေးကို တိတ်တိတ် မြှင့်ပေးတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "5. Money moves last"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "5. ပိုက်ဆံက နောက်ဆုံးမှ ရွေ့တယ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The guest pays Airbnb, not the host. The host receives the money only after the guest has checked in. Nobody has to trust a stranger with the cash itself."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Guest က host ကို တိုက်ရိုက် မပေးဘူး။ Airbnb ကို ပေးတယ်။ Guest က check-in ဝင်ပြီးမှ host က ပိုက်ဆံ ရတယ်။ နှစ်ယောက်လုံးက သူစိမ်း တစ်ယောက်ကို ပိုက်ဆံကိစ္စနဲ့ ယုံစရာ မလိုတော့ဘူး။"
+          }
+        },
+        {
+          "en": {
+            "kind": "card",
+            "text": "Principle Card — Risk Reversal\nRules applied: Escrow · Loss Aversion\nPeople fear losing money more than they enjoy saving it. Hold the payment in the middle until the stay is real, and the scariest part of the deal disappears for both sides."
+          },
+          "my": {
+            "kind": "card",
+            "text": "Principle Card — Risk Reversal\nApplied လုပ်တဲ့ rules: Escrow · Loss Aversion\nလူက ချွေတာရတဲ့ အပျော်ထက် ဆုံးရှုံးရမယ့် အကြောက်ကို ပို ခံစားရတယ်။ တည်းတာ တကယ် ဖြစ်သွားတဲ့ အထိ ပိုက်ဆံကို အလယ်မှာ ခံထားလိုက်ရင် စာချုပ်ရဲ့ အကြောက်ဆုံး အပိုင်းက နှစ်ဖက်လုံးအတွက် ပျောက်သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "The honest summary"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "အမှန်အတိုင်း အကျဉ်းချုပ်"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Airbnb did not remove the risk of staying with strangers. It could not. What it designed was a path where trust grows step by step: a face, then a record, then a fair review system, then a guided hello, then safe money. Each step asks for a little more trust only after the step before it has earned some. If your product asks strangers to trust each other, do not ask for all of it on the first screen."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Airbnb က သူစိမ်းနဲ့ တည်းရတဲ့ risk ကို ဖျောက်ပစ်တာ မဟုတ်ဘူး။ ဖျောက်လို့လည်း မရဘူး။ သူ design လုပ်ခဲ့တာက trust တဆင့်ပြီး တဆင့် ကြီးလာတဲ့ လမ်းပဲ။ မျက်နှာ တစ်ခု၊ ပြီးရင် မှတ်တမ်း၊ ပြီးရင် တရားမျှတဲ့ review စနစ်၊ ပြီးရင် လမ်းပြထားတဲ့ မိတ်ဆက်စာ၊ နောက်ဆုံးမှ စိတ်ချရတဲ့ ပိုက်ဆံ။ အဆင့်တိုင်းက အရင် အဆင့်က ရထားတဲ့ trust ရှိမှ နောက်တစ်ဆင့် နည်းနည်း ပို တောင်းတယ်။ မင်း product ကလည်း သူစိမ်းတွေ တစ်ယောက်ကို တစ်ယောက် ယုံဖို့ လိုတာ ဆိုရင် ပထမ screen မှာတင် အကုန် မတောင်းပါနဲ့။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Keep learning"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဆက်လေ့လာဖို့"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Cheatsheets to study next: Form Design Cheatsheet (how input fields shape what people write) · UX Laws Cheatsheet (the laws behind social proof)\nGlossary terms to study next: Mental Model · Cognitive Load · Social Proof"
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Cheatsheets: Form Design Cheatsheet (input field တွေက လူ ရေးတာကို ဘယ်လို ပုံဖော်လဲ) · UX Laws Cheatsheet (social proof နောက်က laws တွေ)\nGlossary: Mental Model · Cognitive Load · Social Proof"
+          }
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- Make It Tools — https://www.makeit.tools/blogs/the-behavioural-design-secrets-behind-airbnbs-success-part-1\n- ProfitSnack — https://profitsnack.com/p/186\n- TED talk notes — https://lilys.ai/en/notes/670792"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "cheatsheet-001-aha-moment",
+      "category": "Cheatsheets",
+      "titleEn": "Aha! Moment",
+      "titleMy": "Cheatsheet: Aha! Moment",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: Cheatsheets\nConcept: Aha! Moment\nFormat reference: Built for Mars, UX Glossary — https://builtformars.com/ux-glossary/aha-moment"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "What it is"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဘာလဲ ဆိုတော့"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "The first moment a new user feels the product's real value. The moment it clicks — oh, this is why I need this."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "User အသစ်တစ်ယောက်က product ရဲ့ တကယ့် တန်ဖိုးကို ပထမဆုံး ခံစားမိတဲ့ အချိန်ပဲ။ သြော်၊ ဒါကြောင့် လိုတာကိုး ဆိုပြီး ခေါင်းထဲ တန်းရှင်းသွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "Possible impacts"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဖြစ်လာနိုင်တဲ့ သက်ရောက်မှုတွေ"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Reach it early, and churn drops. People who have felt the value do not leave easily.\n- Users who reach it refer others more. A good first win turns into sharing.\n- A clear before-and-after makes the value obvious. Paid upgrades feel justified.\n- A moment of magic leaves a strong first impression, not just a finished setup."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- မြန်မြန် ရောက်လေ၊ ထွက်သွားတဲ့သူ နည်းလေပဲ။ တန်ဖိုးကို သိပြီးသားသူက အလွယ်တကူ မစွန့်ဘူး။\n- အဲဒီ အချိန်ကို ရောက်ဖူးတဲ့သူက တခြားသူကို ညွှန်းပေးတာ ပိုများတယ်။\n- Before နဲ့ after ကို ရှင်းရှင်း မြင်ရရင် ပိုက်ဆံပေးရတာ တန်တယ်လို့ ခံစားရတယ်။ Paid upgrade လုပ်ဖို့ ပိုလွယ်တယ်။\n- ပထမဆုံး အတွေ့အကြုံ ကောင်းရင် product တစ်ခုလုံးကို အကောင်းမြင် သွားတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "As seen in"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဘယ်မှာတွေ့ရလဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Facebook — 7 friends in 10 days. Users who got there stayed.\n- Slack — 2,000 messages in a team. Past that point, teams stuck around.\n- Dropbox — one file, saved on one device, appearing on another. That was the moment."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- Facebook — 10 ရက်အတွင်း သူငယ်ချင်း 7 ယောက်။ အဲဒီလူတွေ ဆက်သုံးတာ များတယ်။\n- Slack — team တစ်ခုက message 2,000 ပို့ပြီးသားဆို ဆက်သုံးဖို့ သေချာသလောက် ဖြစ်သွားတယ်။\n- Dropbox — file တစ်ခုကို device တစ်ခုမှာ ထည့်လိုက်တယ်။ တခြား device မှာ တန်းပေါ်လာတယ်။ အဲဒီ အချိန်ပဲ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "heading",
+            "text": "How to use it"
+          },
+          "my": {
+            "kind": "heading",
+            "text": "ဘယ်လို သုံးမလဲ"
+          }
+        },
+        {
+          "en": {
+            "kind": "list",
+            "text": "- Find the one early action your retained users all take.\n- Remove every step between signup and that action.\n- Point the whole onboarding at that single moment."
+          },
+          "my": {
+            "kind": "list",
+            "text": "- မင်း product ရဲ့ user တွေ အစောပိုင်းမှာ လုပ်တဲ့ action တစ်ခုကို အရင် ရှာပါ။\n- Signup နဲ့ အဲဒီ action ကြားက အဆင့်တွေကို လျှော့ပါ။\n- Onboarding တစ်ခုလုံးကို အဲဒီ အချိန်ဆီပဲ ဦးတည်ထားပါ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- Built for Mars, UX Glossary: Aha! Moment — https://builtformars.com/ux-glossary/aha-moment\n- UsageTracking, \"Finding Your A-Ha Moment: A Data-Driven Approach\" — https://www.usagetracking.com/posts/aha-moment-data-driven.html\n- Startup Fundraising, \"Product Aha Moment\" — https://startupfundraising.com/aha-moment"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "ကိုးကား:\n- Built for Mars, UX Glossary: Aha! Moment — https://builtformars.com/ux-glossary/aha-moment\n- UsageTracking — https://www.usagetracking.com/posts/aha-moment-data-driven.html\n- Startup Fundraising — https://startupfundraising.com/aha-moment"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "ux-bite-001-blinkist-suggest-v2",
+      "category": "UX Bites",
+      "titleEn": "Suggest It in One Tap",
+      "titleMy": "တစ်ချက်နှိပ်ပြီး အကြံပြုလိုက်ရုံပဲ",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: UX Bites\nApp: Blinkist\nImage: reference screenshot supplied by JJ (BFM example, arrows show the scroll and the Suggest buttons)"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "On Blinkist, scroll to the bottom of your search results. You will find books they do not have yet. Each one has a Suggest button next to it. Tap it, and your request goes straight to the curation team. No form. No typing. A search that hit a dead end turns into a useful action, and Blinkist learns exactly which books readers want next."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Blinkist မှာ စာအုပ်ရှာနေရင်း အောက်ဆုံးထိ ဆင်းသွားကြည့်။ Catalogue ထဲမှာ မရှိသေးတဲ့ စာအုပ်တွေ တွေ့လိမ့်မယ်။ တစ်အုပ်စီရဲ့ ဘေးမှာ Suggest button ပါတယ်။ တစ်ချက် နှိပ်လိုက်တာနဲ့ တောင်းဆိုချက်က curation team ဆီ တန်းရောက်တယ်။ Form ဖြည့်စရာ မလိုဘူး။ စာလည်း ရိုက်စရာ မလိုဘူး။ ရှာမတွေ့လို့ လမ်းဆုံးသွားမယ့် အစား လုပ်စရာ တစ်ခုခု ရလိုက်တယ်။ Blinkist အတွက်လည်း ကောင်းပါတယ်။ စာဖတ်သူတွေ ဘာလိုချင်နေလဲ အတိအကျ သိရတယ်။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Reference: Built for Mars, UX Bites — https://builtformars.com/ux-bites/suggest-these-titles-in-one-tap"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "ကိုးကား: Built for Mars, UX Bites — https://builtformars.com/ux-bites/suggest-these-titles-in-one-tap"
+          },
+          "my": null
+        }
+      ]
+    },
+    {
+      "id": "ux-bite-002-netflix-skip-intro",
+      "category": "UX Bites",
+      "titleEn": "Skip the Part You Have Already Seen",
+      "titleMy": "မြင်ပြီးသား အပိုင်းကို ကျော်ပစ်လိုက်ရုံပဲ",
+      "blocks": [
+        {
+          "en": {
+            "kind": "meta",
+            "text": "Category: UX Bites\nApp: Netflix (video player)\nImage: assets/ux-bite-002-netflix-skip-intro.jpg — Netflix player showing the Skip Intro button, circled. Source page: https://www.mybasis.com/prime-video-vs-netflix/"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "Watch a series on Netflix and the intro starts. A small Skip Intro button appears at the bottom right. One click, and you are straight into the episode. Netflix noticed something simple: nobody needs the same opening credits before every episode, especially the third one in a row tonight. The button only appears when there is an intro to skip. It does one job, then disappears. Good UX often looks exactly like this — find the step people repeat for no reason, and let them jump over it."
+          },
+          "my": {
+            "kind": "paragraph",
+            "text": "Netflix မှာ series တစ်ခု ကြည့်နေတယ် ဆိုပါစို့။ Intro စလာတာနဲ့ ညာဘက် အောက်နားမှာ Skip Intro button လေး ပေါ်လာတယ်။ တစ်ချက် နှိပ်လိုက်ရုံနဲ့ episode ထဲ တန်းရောက်တယ်။ ညဘက် အပိုင်းဆက် ကြည့်နေတဲ့သူက ဒီ intro ကို ဘယ်နှစ်ခါ ထပ်ကြည့်ချင်မှာလဲ။ Netflix က အဲဒီအချက်ကို သိတယ်။ Button က intro ရှိမှ ပေါ်လာတယ်။ Button ရဲ့ အလုပ်က တစ်ခုတည်းပါပဲ။ ပြီးရင် ပျောက်သွားတယ်။ Good UX ဆိုတာလည်း ဒီလိုပါပဲ။ လူတွေအတွက် အကျိုးမရှိစေတဲ့ အရာကို ရှာပါ။ ပြီးရင် သူတို့အတွက် အဖြေရှာပေးလိုက်ပါ။"
+          }
+        },
+        {
+          "en": {
+            "kind": "paragraph",
+            "text": "---"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "References:\n- UMA Technology, \"How to Auto Skip Intro on Netflix\" — https://umatechnology.org/how-to-auto-skip-intro-on-netflix/\n- The A.V. Club, \"'Skip intro': Netflix could've saved TV title sequences, but now it's killing them\" — https://www.avclub.com/skip-intro-netflix-could-ve-saved-tv-title-sequences-1802926420\n- Image source: https://www.mybasis.com/prime-video-vs-netflix/"
+          },
+          "my": null
+        },
+        {
+          "en": {
+            "kind": "refs",
+            "text": "ကိုးကား:\n- UMA Technology, \"How to Auto Skip Intro on Netflix\" — https://umatechnology.org/how-to-auto-skip-intro-on-netflix/\n- The A.V. Club — https://www.avclub.com/skip-intro-netflix-could-ve-saved-tv-title-sequences-1802926420\n- ပုံ အရင်းအမြစ်: https://www.mybasis.com/prime-video-vs-netflix/"
+          },
+          "my": null
+        }
+      ]
+    }
+  ]
+}
