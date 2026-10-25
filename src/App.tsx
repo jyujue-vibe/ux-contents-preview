@@ -8,6 +8,7 @@ import {
   useAnimatedToastStack,
 } from '@/components/motion/animated-toast-stack'
 import { cn } from '@/lib/utils'
+import Logo from '@/components/Logo'
 import content from '@/data/content.json'
 
 type Block = { kind: string; text: string }
@@ -149,10 +150,15 @@ export default function App() {
   return (
     <div className="mx-auto min-h-screen w-full max-w-3xl px-4 pb-24 sm:px-6">
       <header className="pb-5 pt-8">
-        <h1 className="text-3xl font-bold tracking-tight">
-          UX Contents <span className="text-primary">Preview</span>
-        </h1>
-        <p className="mt-1 text-sm text-muted-foreground">Batman UX — draft review</p>
+        <div className="flex items-center gap-3">
+          <Logo className="h-11 w-11 shrink-0" />
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">
+              UX Contents <span className="text-primary">Preview</span>
+            </h1>
+            <p className="mt-1 text-sm text-muted-foreground">Batman UX — draft review</p>
+          </div>
+        </div>
       </header>
 
       <Tabs
