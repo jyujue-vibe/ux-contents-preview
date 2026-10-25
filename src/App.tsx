@@ -81,17 +81,27 @@ function BlockView({
       </span>
       <CopyButton text={block.text} onCopied={onCopied} />
       {block.kind === 'heading' ? (
-        <h3 className="pr-8 text-base font-semibold leading-snug text-foreground">
+        <h3
+          className={cn(
+            'pr-8 font-semibold leading-snug text-foreground',
+            isMy ? 'text-base' : 'text-lg',
+          )}
+        >
           {block.text}
         </h3>
       ) : block.kind === 'list' ? (
-        <ul className="space-y-1 pr-8 text-[15px] leading-relaxed">
+        <ul className={cn('space-y-1 pr-8 leading-relaxed', isMy ? 'text-[15px]' : 'text-[18px]')}>
           {block.text.split('\n').map((line, i) => (
             <li key={i}>{line}</li>
           ))}
         </ul>
       ) : (
-        <div className="whitespace-pre-wrap pr-8 text-[15px] leading-relaxed text-foreground/90">
+        <div
+          className={cn(
+            'whitespace-pre-wrap pr-8 leading-relaxed text-foreground/90',
+            isMy ? 'text-[15px]' : 'text-[18px]',
+          )}
+        >
           {block.text}
         </div>
       )}
@@ -116,7 +126,7 @@ function PieceDetail({
       <p className="text-xs font-medium uppercase tracking-widest text-primary">
         {piece.category}
       </p>
-      <h2 className="mt-1 text-2xl font-bold leading-tight">{piece.titleEn}</h2>
+      <h2 className="mt-1 text-[28px] font-bold leading-tight">{piece.titleEn}</h2>
       {piece.titleMy && (
         <p className="mt-1.5 text-lg leading-snug text-muted-foreground">{piece.titleMy}</p>
       )}
@@ -170,7 +180,7 @@ export default function App() {
       >
         <TabsList className="flex w-full flex-wrap justify-start gap-1">
           {CATEGORIES.map((c) => (
-            <TabsTrigger key={c} value={c}>
+            <TabsTrigger key={c} value={c} className="text-[15px]">
               {c}
               <span className="ml-1.5 text-xs text-muted-foreground">
                 {byCategory[c].length || ''}
@@ -208,7 +218,7 @@ export default function App() {
                   >
                     <Card className="transition hover:border-primary/50">
                       <CardHeader>
-                        <CardTitle className="text-lg leading-snug">{p.titleEn}</CardTitle>
+                        <CardTitle className="text-xl leading-snug">{p.titleEn}</CardTitle>
                         {p.titleMy && (
                           <CardDescription className="text-[15px] leading-snug">
                             {p.titleMy}
