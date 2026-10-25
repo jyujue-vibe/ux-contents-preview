@@ -162,10 +162,164 @@ function parseSplit(raw) {
   return { titleEn: enT.title, titleMy: myT.title, blocks: extractRefs(pairs) }
 }
 
+const slugify = (s) =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+
+// ---- Multi-piece sources -------------------------------------------------
+// glossary-30.md: every `### N. Term` entry becomes its own Glossary piece.
+// Each entry has a **[EN]** block (definition + "Example:" line) and a
+// **[MY]** block (definition + "ဥပမာ:" line).
+function parseGlossaryMulti(raw) {
+  const out = []
+  const entries = raw.split(/^###\s+/m).slice(1) // drop file header/intro
+  for (const entry of entries) {
+    const nl = entry.indexOf('\n')
+    const term = entry
+      .slice(0, nl)
+      .replace(/^\d+\.\s*/, '')
+      .trim()
+    const body = entry.slice(nl + 1)
+    const grab = (marker, examplePrefix) => {
+      const start = body.indexOf(marker)
+      if (start === -1) return []
+      let text = body.slice(start + marker.length)
+      const nextEn = text.indexOf('**[EN]**')
+      const nextMy = text.indexOf('**[MY]**')
+      const ends = [nextEn, nextMy].filter((i) => i !== -1)
+      if (ends.length) text = text.slice(0, Math.min(...ends))
+      const lines = text
+        .trim()
+        .split('\n')
+        .map((l) => l.trim())
+        .filter((l) => l && l !== '---')
+      const exIdx = lines.findIndex((l) => l.startsWith(examplePrefix))
+      const def =
+        exIdx === -1 ? lines.join(' ') : lines.slice(0, exIdx).join(' ')
+      const blocks = []
+      if (def) blocks.push({ kind: 'paragraph', text: stripMd(def) })
+      if (exIdx !== -1)
+        blocks.push({ kind: 'paragraph', text: stripMd(lines[exIdx]) })
+      return blocks
+    }
+    const enBlocks = grab('**[EN]**', 'Example:')
+    const myBlocks = grab('**[MY]**', 'ဥပမာ:')
+    out.push({
+      id: `glossary-${slugify(term)}`,
+      category: 'Glossary',
+      titleEn: term,
+      titleMy: term,
+      blocks: zipPairs(enBlocks, myBlocks),
+    })
+  }
+  return out
+}
+
+// cheatsheets-10.md: every `## N. <Topic> Cheatsheet` section becomes one
+// Cheatsheets piece. Labelled subsections alternate EN/MY; pair sequential
+// EN subsections with the following MY subsection (same pairing logic as
+// parsePaired: heading block + body blocks, zipped).
+const SUB_MARKER = /^\*\*\[(EN|MY)\]\s*(.+?)\*\*\s*$/
+function parseCheatsheetsMulti(raw) {
+  const out = []
+  const sections = raw.split(/^##\s+/m).slice(1) // drop file header/intro
+  for (const section of sections) {
+    const nl = section.indexOf('\n')
+    const heading = section.slice(0, nl).replace(/^\d+\.\s*/, '').trim()
+    const body = section.slice(nl + 1)
+    // split body into labelled language subsections
+    const subs = [] // {lang, heading, bodyLines}
+    let current = null
+    for (const line of body.split('\n')) {
+      const m = line.match(SUB_MARKER)
+      if (m) {
+        current = { lang: m[1].toLowerCase(), heading: m[2].trim(), bodyLines: [] }
+        subs.push(current)
+      } else if (current) current.bodyLines.push(line)
+    }
+    const pairs = []
+    for (let i = 0; i < subs.length; i += 2) {
+      const enSub = subs[i]
+      const mySub = subs[i + 1]
+      const mk = (s) =>
+        s
+          ? [
+              { kind: 'heading', text: s.heading },
+              ...toBlocks(
+                s.bodyLines.filter((l) => !/^\s*---\s*$/.test(l)).join('\n').trim(),
+              ),
+            ]
+          : []
+      pairs.push(...zipPairs(mk(enSub), mk(mySub)))
+    }
+    out.push({
+      id: `cheatsheet-${slugify(heading.replace(/\s+Cheatsheet$/i, ''))}`,
+      category: 'Cheatsheets',
+      titleEn: heading,
+      titleMy: heading,
+      blocks: pairs,
+    })
+  }
+  return out
+}
+
+// ux-bites-10.md: every `## Bite N — App: pattern` section becomes one
+// UX Bites piece: [Screenshot: …] line as a meta block, then an EN
+// paragraph paired with a MY paragraph.
+function parseBitesMulti(raw) {
+  const out = []
+  const sections = raw.split(/^##\s+/m).slice(1) // drop file header/intro
+  for (const section of sections) {
+    const nl = section.indexOf('\n')
+    const title = section.slice(0, nl).trim()
+    const body = section.slice(nl + 1)
+    const pairs = []
+    let enText = ''
+    let myText = ''
+    for (const line of body.split('\n')) {
+      const t = line.trim()
+      if (/^\[Screenshot:/.test(t))
+        pairs.push({ en: { kind: 'meta', text: t }, my: null })
+      else if (t.startsWith('**[EN]**')) enText = t.replace(/^\*\*\[EN\]\*\*\s*/, '')
+      else if (t.startsWith('**[MY]**')) myText = t.replace(/^\*\*\[MY\]\*\*\s*/, '')
+    }
+    if (enText || myText) {
+      pairs.push({
+        en: enText ? { kind: 'paragraph', text: stripMd(enText) } : null,
+        my: myText ? { kind: 'paragraph', text: stripMd(myText) } : null,
+      })
+    }
+    out.push({
+      id: `ux-bite-${slugify(title)}`,
+      category: 'UX Bites',
+      titleEn: title,
+      titleMy: title,
+      blocks: pairs,
+    })
+  }
+  return out
+}
+
+const MULTI_PARSERS = {
+  'glossary-30.md': parseGlossaryMulti,
+  'cheatsheets-10.md': parseCheatsheetsMulti,
+  'ux-bites-10.md': parseBitesMulti,
+}
+
 const files = readdirSync(draftsDir).filter((f) => f.endsWith('.md')).sort()
 const pieces = []
 for (const file of files) {
   const raw = readFileSync(join(draftsDir, file), 'utf8')
+  if (MULTI_PARSERS[file]) {
+    const multi = MULTI_PARSERS[file](raw)
+    pieces.push(...multi)
+    console.log(
+      `${file} → ${multi.length} pieces (${multi[0]?.category ?? '?'})`,
+    )
+    continue
+  }
   const category =
     CATEGORY_BY_PREFIX.find(([p]) => file.startsWith(p))?.[1] ?? 'Articles'
   const parsed = raw.includes('## ENGLISH VERSION') ? parseSplit(raw) : parsePaired(raw)
