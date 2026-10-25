@@ -7,6 +7,13 @@ import {
   AnimatedToastStack,
   useAnimatedToastStack,
 } from '@/components/motion/animated-toast-stack'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/motion/select'
 import { cn } from '@/lib/utils'
 import Logo from '@/components/Logo'
 import content from '@/data/content.json'
@@ -265,22 +272,23 @@ export default function App() {
           <TabsContent key={c} value={c} className="pt-5">
             {!(openPiece && openPiece.category === c) && byCategory[c].length > 0 && (
               <div className="mb-4 flex items-center justify-end gap-2">
-                <label
-                  htmlFor={`sort-${c}`}
-                  className="text-xs font-medium uppercase tracking-wider text-muted-foreground"
-                >
+                <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
                   Sort
-                </label>
-                <select
-                  id={`sort-${c}`}
+                </span>
+                <Select
                   value={sortMode}
-                  onChange={(e) => setSortMode(e.target.value as SortMode)}
-                  className="rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                  onValueChange={(v) => setSortMode(v as SortMode)}
+                  className="w-48"
                 >
-                  <option value="new">New first</option>
-                  <option value="old">Old first</option>
-                  <option value="alphabetical">Alphabetical</option>
-                </select>
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="new">New first</SelectItem>
+                    <SelectItem value="old">Old first</SelectItem>
+                    <SelectItem value="alphabetical">Alphabetical</SelectItem>
+                  </SelectContent>
+                </Select>
               </div>
             )}
             {openPiece && openPiece.category === c ? (
