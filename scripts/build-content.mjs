@@ -31,7 +31,7 @@ function classify(chunk) {
     return { kind: 'list', text: stripMd(t) }
   if (
     lines.every((l) =>
-      /^(Category|Company|Cover|Image|Topic|Concept|Format|Note|App|Source|Format reference):/.test(l.trim()),
+      /^(Category|Company|Cover|Image|Topic|Concept|Format|Note|App|Source|Format reference|Glossary tags):/.test(l.trim()),
     )
   )
     return { kind: 'meta', text: stripMd(t) }
@@ -337,12 +337,23 @@ for (const file of files) {
   parsed.blocks = parsed.blocks.filter(
     (p) => !(p.en?.kind === 'heading' && /Draft for review/.test(p.en.text) && !p.my),
   )
+  // A `Glossary tags: Term · Term` header line in the draft itself wins over
+  // the TAG_RULES below (see tag assignment after the loop).
+  const headerTagsMatch = raw.match(/^Glossary tags:\s*(.+)$/m)
   pieces.push({
     id: file.replace(/\.md$/, ''),
     category,
     titleEn: parsed.titleEn,
     titleMy: parsed.titleMy,
     blocks: parsed.blocks,
+    ...(headerTagsMatch
+      ? {
+          headerTags: headerTagsMatch[1]
+            .split('·')
+            .map((t) => t.trim())
+            .filter(Boolean),
+        }
+      : {}),
   })
   console.log(
     `${file} → ${category} | EN title: ${parsed.titleEn || '(none)'} | pairs: ${parsed.blocks.length}`,
@@ -382,11 +393,32 @@ const TAG_RULES = [
   ['case-study-002-airbnb-trust-paired', ['Social Proof']],
 ]
 for (const piece of pieces) {
+  if (piece.headerTags) {
+    piece.tags = piece.headerTags
+    continue
+  }
   const rule =
     TAG_RULES.find(([m]) => piece.id === m) ??
     TAG_RULES.find(([m]) => piece.id.includes(m))
   if (rule) piece.tags = rule[1]
 }
+
+// Validate tags against actual Glossary piece titles. Header-derived tags
+// are reported loudly if they don't resolve (never silently dropped).
+const glossaryTitles = new Set(
+  pieces.filter((p) => p.category === 'Glossary').map((p) => p.titleEn),
+)
+for (const piece of pieces) {
+  if (!piece.tags) continue
+  const unresolved = piece.tags.filter((t) => !glossaryTitles.has(t))
+  if (unresolved.length) {
+    console.warn(
+      `⚠ ${piece.id}: unresolved glossary tag(s): ${unresolved.join(', ')}` +
+        (piece.headerTags ? ' (from Glossary tags header)' : ' (from TAG_RULES)'),
+    )
+  }
+}
+for (const piece of pieces) delete piece.headerTags
 
 writeFileSync(join(outDir, 'content.json'), JSON.stringify({ pieces }, null, 2))
 console.log(`Wrote src/data/content.json with ${pieces.length} pieces`)
