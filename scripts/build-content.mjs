@@ -278,17 +278,27 @@ function parseBitesMulti(raw) {
     const pairs = []
     let enText = ''
     let myText = ''
+    let enPrinciple = ''
+    let myPrinciple = ''
     for (const line of body.split('\n')) {
       const t = line.trim()
       if (/^\[Screenshot:/.test(t))
         pairs.push({ en: { kind: 'meta', text: t }, my: null })
       else if (t.startsWith('**[EN]**')) enText = t.replace(/^\*\*\[EN\]\*\*\s*/, '')
       else if (t.startsWith('**[MY]**')) myText = t.replace(/^\*\*\[MY\]\*\*\s*/, '')
+      else if (t.startsWith('Principle applied:')) enPrinciple = t
+      else if (t.startsWith('Applied လုပ်ထားတဲ့ principle:')) myPrinciple = t
     }
     if (enText || myText) {
       pairs.push({
         en: enText ? { kind: 'paragraph', text: stripMd(enText) } : null,
         my: myText ? { kind: 'paragraph', text: stripMd(myText) } : null,
+      })
+    }
+    if (enPrinciple || myPrinciple) {
+      pairs.push({
+        en: enPrinciple ? { kind: 'paragraph', text: stripMd(enPrinciple) } : null,
+        my: myPrinciple ? { kind: 'paragraph', text: stripMd(myPrinciple) } : null,
       })
     }
     out.push({

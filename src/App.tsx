@@ -209,7 +209,7 @@ export default function App() {
               </div>
             ) : (
               <div className="grid gap-3">
-                {byCategory[c].map((p) => (
+                {byCategory[c].map((p, i) => (
                   <button
                     key={p.id}
                     type="button"
@@ -218,6 +218,11 @@ export default function App() {
                   >
                     <Card className="transition hover:border-primary/50">
                       <CardHeader>
+                        {c === 'UX Bites' && (
+                          <span className="mb-1 inline-block w-fit rounded bg-secondary px-1.5 py-0.5 text-[11px] font-semibold tracking-wider text-muted-foreground">
+                            #{i + 1}
+                          </span>
+                        )}
                         <CardTitle className="text-xl leading-snug">{p.titleEn}</CardTitle>
                         {p.titleMy && (
                           <CardDescription className="text-[15px] leading-snug">

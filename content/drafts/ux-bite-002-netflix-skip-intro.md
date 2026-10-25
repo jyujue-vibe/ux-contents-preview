@@ -17,6 +17,8 @@ References:
 - The A.V. Club, "'Skip intro': Netflix could've saved TV title sequences, but now it's killing them" — https://www.avclub.com/skip-intro-netflix-could-ve-saved-tv-title-sequences-1802926420
 - Image source: https://www.mybasis.com/prime-video-vs-netflix/
 
+Principle applied: Respect for User Time · Peak-End Rule — the button removes the repeated moment nobody wants, so each episode starts with the story, not with the part everyone skips.
+
 ---
 
 ## မြန်မာ ဗားရှင်း
@@ -29,3 +31,5 @@ Netflix မှာ series တစ်ခု ကြည့်နေတယ် ဆိ�
 - UMA Technology, "How to Auto Skip Intro on Netflix" — https://umatechnology.org/how-to-auto-skip-intro-on-netflix/
 - The A.V. Club — https://www.avclub.com/skip-intro-netflix-could-ve-saved-tv-title-sequences-1802926420
 - ပုံ အရင်းအမြစ်: https://www.mybasis.com/prime-video-vs-netflix/
+
+Applied လုပ်ထားတဲ့ principle: Respect for User Time · Peak-End Rule — လူတိုင်း ကျော်ချင်တဲ့ ထပ်တလဲ intro ကို ဖြတ်ပေးထားလို့ episode တိုင်းက ဇာတ်လမ်းနဲ့ တန်း စတယ်။

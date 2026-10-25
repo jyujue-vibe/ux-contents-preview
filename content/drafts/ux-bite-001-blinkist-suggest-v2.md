@@ -14,6 +14,8 @@ On Blinkist, scroll to the bottom of your search results. You will find books th
 
 Reference: Built for Mars, UX Bites — https://builtformars.com/ux-bites/suggest-these-titles-in-one-tap
 
+Principle applied: Recognition Over Recall · One-Tap Action — the missing books are laid out as ready choices, so you recognise the one you want and tap once instead of typing a request.
+
 ---
 
 ## မြန်မာ ဗားရှင်း
@@ -23,3 +25,5 @@ Reference: Built for Mars, UX Bites — https://builtformars.com/ux-bites/sugges
 Blinkist မှာ စာအုပ်ရှာနေရင်း အောက်ဆုံးထိ ဆင်းသွားကြည့်။ Catalogue ထဲမှာ မရှိသေးတဲ့ စာအုပ်တွေ တွေ့လိမ့်မယ်။ တစ်အုပ်စီရဲ့ ဘေးမှာ Suggest button ပါတယ်။ တစ်ချက် နှိပ်လိုက်တာနဲ့ တောင်းဆိုချက်က curation team ဆီ တန်းရောက်တယ်။ Form ဖြည့်စရာ မလိုဘူး။ စာလည်း ရိုက်စရာ မလိုဘူး။ ရှာမတွေ့လို့ လမ်းဆုံးသွားမယ့် အစား လုပ်စရာ တစ်ခုခု ရလိုက်တယ်။ Blinkist အတွက်လည်း ကောင်းပါတယ်။ စာဖတ်သူတွေ ဘာလိုချင်နေလဲ အတိအကျ သိရတယ်။
 
 ကိုးကား: Built for Mars, UX Bites — https://builtformars.com/ux-bites/suggest-these-titles-in-one-tap
+
+Applied လုပ်ထားတဲ့ principle: Recognition Over Recall · One-Tap Action — မရှိသေးတဲ့ စာအုပ်တွေကို ရွေးစရာ အဆင်သင့် ပြထားလို့ တောင်းဆိုစာ ရိုက်စရာ မလိုဘူး၊ မြင်တာနဲ့ တစ်ချက် နှိပ်ရုံပဲ။
