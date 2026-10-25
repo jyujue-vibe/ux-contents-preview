@@ -314,11 +314,23 @@ function parseBitesMulti(raw) {
 
 const MULTI_PARSERS = {
   'glossary-30.md': parseGlossaryMulti,
+  'glossary-10-batch2.md': parseGlossaryMulti,
   'cheatsheets-10.md': parseCheatsheetsMulti,
+  'cheatsheets-10-batch2.md': parseCheatsheetsMulti,
   'ux-bites-10.md': parseBitesMulti,
+  'ux-bites-10-batch2.md': parseBitesMulti,
 }
 
-const files = readdirSync(draftsDir).filter((f) => f.endsWith('.md')).sort()
+// Sort files, but keep each "-batch2" multi-piece file directly after its
+// batch-1 counterpart ("-batch2.md" would otherwise sort before ".md" and
+// e.g. renumber the UX Bites list).
+const sortedFiles = readdirSync(draftsDir).filter((f) => f.endsWith('.md')).sort()
+const files = sortedFiles.filter((f) => !f.includes('-batch2'))
+for (const f of sortedFiles.filter((f) => f.includes('-batch2'))) {
+  const baseIdx = files.indexOf(f.replace('-batch2.md', '.md'))
+  if (baseIdx >= 0) files.splice(baseIdx + 1, 0, f)
+  else files.push(f)
+}
 const pieces = []
 for (const file of files) {
   const raw = readFileSync(join(draftsDir, file), 'utf8')
