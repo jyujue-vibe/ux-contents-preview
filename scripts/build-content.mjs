@@ -349,5 +349,44 @@ for (const file of files) {
   )
 }
 
+// Safety net: cheatsheet titles never carry the redundant word "Cheatsheet"
+// (the pieces already live in the Cheatsheets tab).
+for (const piece of pieces) {
+  if (piece.category === 'Cheatsheets') {
+    const clean = (t) => t.replace(/^Cheatsheet:\s*/, '').replace(/\s+Cheatsheet$/, '')
+    piece.titleEn = clean(piece.titleEn)
+    if (piece.titleMy) piece.titleMy = clean(piece.titleMy)
+  }
+}
+
+// Glossary tags: pieces linked to related glossary terms.
+// Tag names must match glossary piece titles exactly.
+// Matching: exact piece id first, then substring rules.
+const TAG_RULES = [
+  ['ux-bite-001-blinkist-suggest-v2', ['Friction']],
+  ['ux-bite-002-netflix-skip-intro', ['Friction']],
+  ['duolingo', ['Retention']],
+  ['spotify-jump-back-in', ['Friction']],
+  ['google-maps-popular-times', ['Social Proof']],
+  ['instagram-double-tap', ['Feedback']],
+  ['youtube-preview-thumbnails', ['Cognitive Load']],
+  ['grab-order-again', ['Friction']],
+  ['amazon-frequently-bought', ['Social Proof']],
+  ['notion-the-slash-command', ['Progressive Disclosure', 'Cognitive Load']],
+  ['tiktok-one-video', ['Cognitive Load']],
+  ['airbnb-i-m-flexible', ['Progressive Disclosure']],
+  ['article-001-invisible-gorilla', ['Cognitive Load', 'Banner Blindness']],
+  ['article-002-peak-end-rule', ['Retention']],
+  ['article-003-jakobs-law-mental-models', ['Mental Model']],
+  ['case-study-001-mcdonalds-kiosks', ['Cognitive Load', 'Conversion']],
+  ['case-study-002-airbnb-trust-paired', ['Social Proof']],
+]
+for (const piece of pieces) {
+  const rule =
+    TAG_RULES.find(([m]) => piece.id === m) ??
+    TAG_RULES.find(([m]) => piece.id.includes(m))
+  if (rule) piece.tags = rule[1]
+}
+
 writeFileSync(join(outDir, 'content.json'), JSON.stringify({ pieces }, null, 2))
 console.log(`Wrote src/data/content.json with ${pieces.length} pieces`)

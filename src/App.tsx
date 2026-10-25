@@ -19,6 +19,7 @@ type Piece = {
   titleEn: string
   titleMy: string
   blocks: Pair[]
+  tags?: string[]
 }
 
 const CATEGORIES = ['Articles', 'Case Studies', 'UX Bites', 'Cheatsheets', 'Glossary']
@@ -113,10 +114,14 @@ function PieceDetail({
   piece,
   onBack,
   onCopied,
+  onOpenGlossary,
+  glossaryTerms,
 }: {
   piece: Piece
   onBack: () => void
   onCopied: () => void
+  onOpenGlossary: (term: string) => void
+  glossaryTerms: string[]
 }) {
   return (
     <div>
@@ -130,6 +135,32 @@ function PieceDetail({
       {piece.titleMy && (
         <p className="mt-1.5 text-lg leading-snug text-muted-foreground">{piece.titleMy}</p>
       )}
+      {piece.tags?.length ? (
+        <div className="mt-4 flex flex-wrap items-center gap-1.5">
+          <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            Glossary:
+          </span>
+          {piece.tags.map((term) =>
+            glossaryTerms.includes(term) ? (
+              <button
+                key={term}
+                type="button"
+                onClick={() => onOpenGlossary(term)}
+                className="rounded-full border border-border bg-card px-2.5 py-0.5 text-xs text-foreground/90 transition hover:border-primary/60 hover:text-primary"
+              >
+                {term}
+              </button>
+            ) : (
+              <span
+                key={term}
+                className="rounded-full border border-border bg-card px-2.5 py-0.5 text-xs text-muted-foreground"
+              >
+                {term}
+              </span>
+            ),
+          )}
+        </div>
+      ) : null}
       <div className="mt-6 space-y-2.5">
         {piece.blocks.map((pair, i) => (
           <div key={i} className="space-y-2.5">
@@ -156,6 +187,18 @@ export default function App() {
   const openPiece = openId ? pieces.find((p) => p.id === openId) : undefined
   const copied = () =>
     showToast({ title: 'Copied', description: 'Paragraph copied to clipboard.', status: 'success', duration: 1600 })
+
+  const glossaryTerms = useMemo(
+    () => pieces.filter((p) => p.category === 'Glossary').map((p) => p.titleEn),
+    [],
+  )
+  const openGlossaryTerm = (term: string) => {
+    const target = pieces.find((p) => p.category === 'Glossary' && p.titleEn === term)
+    if (!target) return
+    setTab('Glossary')
+    setOpenId(target.id)
+    window.scrollTo({ top: 0 })
+  }
 
   return (
     <div className="mx-auto min-h-screen w-full max-w-3xl px-4 pb-24 sm:px-6">
@@ -196,6 +239,8 @@ export default function App() {
                 piece={openPiece}
                 onBack={() => setOpenId(null)}
                 onCopied={copied}
+                onOpenGlossary={openGlossaryTerm}
+                glossaryTerms={glossaryTerms}
               />
             ) : byCategory[c].length === 0 ? (
               <div className="rounded-xl border border-dashed border-border px-6 py-14 text-center">
@@ -232,6 +277,11 @@ export default function App() {
                         <p className="pt-1 text-xs text-muted-foreground">
                           {p.category} · {p.blocks.length} blocks
                         </p>
+                        {p.tags?.length ? (
+                          <p className="pt-0.5 text-xs text-muted-foreground">
+                            Glossary: {p.tags.join(' · ')}
+                          </p>
+                        ) : null}
                       </CardHeader>
                     </Card>
                   </button>

@@ -250,6 +250,10 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Cognitive Load",
+        "Banner Blindness"
       ]
     },
     {
@@ -521,6 +525,9 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Retention"
       ]
     },
     {
@@ -794,6 +801,9 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Mental Model"
       ]
     },
     {
@@ -1057,6 +1067,10 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Cognitive Load",
+        "Conversion"
       ]
     },
     {
@@ -1309,13 +1323,16 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Social Proof"
       ]
     },
     {
       "id": "cheatsheet-001-aha-moment",
       "category": "Cheatsheets",
       "titleEn": "Aha! Moment",
-      "titleMy": "Cheatsheet: Aha! Moment",
+      "titleMy": "Aha! Moment",
       "blocks": [
         {
           "en": {
@@ -1437,8 +1454,8 @@
     {
       "id": "cheatsheet-form-design",
       "category": "Cheatsheets",
-      "titleEn": "Form Design Cheatsheet",
-      "titleMy": "Form Design Cheatsheet",
+      "titleEn": "Form Design",
+      "titleMy": "Form Design",
       "blocks": [
         {
           "en": {
@@ -1505,8 +1522,8 @@
     {
       "id": "cheatsheet-ux-laws",
       "category": "Cheatsheets",
-      "titleEn": "UX Laws Cheatsheet",
-      "titleMy": "UX Laws Cheatsheet",
+      "titleEn": "UX Laws",
+      "titleMy": "UX Laws",
       "blocks": [
         {
           "en": {
@@ -1573,8 +1590,8 @@
     {
       "id": "cheatsheet-onboarding",
       "category": "Cheatsheets",
-      "titleEn": "Onboarding Cheatsheet",
-      "titleMy": "Onboarding Cheatsheet",
+      "titleEn": "Onboarding",
+      "titleMy": "Onboarding",
       "blocks": [
         {
           "en": {
@@ -1641,8 +1658,8 @@
     {
       "id": "cheatsheet-empty-states",
       "category": "Cheatsheets",
-      "titleEn": "Empty States Cheatsheet",
-      "titleMy": "Empty States Cheatsheet",
+      "titleEn": "Empty States",
+      "titleMy": "Empty States",
       "blocks": [
         {
           "en": {
@@ -1709,8 +1726,8 @@
     {
       "id": "cheatsheet-error-messages",
       "category": "Cheatsheets",
-      "titleEn": "Error Messages Cheatsheet",
-      "titleMy": "Error Messages Cheatsheet",
+      "titleEn": "Error Messages",
+      "titleMy": "Error Messages",
       "blocks": [
         {
           "en": {
@@ -1777,8 +1794,8 @@
     {
       "id": "cheatsheet-buttons-cta",
       "category": "Cheatsheets",
-      "titleEn": "Buttons & CTA Cheatsheet",
-      "titleMy": "Buttons & CTA Cheatsheet",
+      "titleEn": "Buttons & CTA",
+      "titleMy": "Buttons & CTA",
       "blocks": [
         {
           "en": {
@@ -1845,8 +1862,8 @@
     {
       "id": "cheatsheet-search-ux",
       "category": "Cheatsheets",
-      "titleEn": "Search UX Cheatsheet",
-      "titleMy": "Search UX Cheatsheet",
+      "titleEn": "Search UX",
+      "titleMy": "Search UX",
       "blocks": [
         {
           "en": {
@@ -1913,8 +1930,8 @@
     {
       "id": "cheatsheet-mobile-navigation",
       "category": "Cheatsheets",
-      "titleEn": "Mobile Navigation Cheatsheet",
-      "titleMy": "Mobile Navigation Cheatsheet",
+      "titleEn": "Mobile Navigation",
+      "titleMy": "Mobile Navigation",
       "blocks": [
         {
           "en": {
@@ -1981,8 +1998,8 @@
     {
       "id": "cheatsheet-loading-waiting",
       "category": "Cheatsheets",
-      "titleEn": "Loading & Waiting Cheatsheet",
-      "titleMy": "Loading & Waiting Cheatsheet",
+      "titleEn": "Loading & Waiting",
+      "titleMy": "Loading & Waiting",
       "blocks": [
         {
           "en": {
@@ -2049,8 +2066,8 @@
     {
       "id": "cheatsheet-pricing-page",
       "category": "Cheatsheets",
-      "titleEn": "Pricing Page Cheatsheet",
-      "titleMy": "Pricing Page Cheatsheet",
+      "titleEn": "Pricing Page",
+      "titleMy": "Pricing Page",
       "blocks": [
         {
           "en": {
@@ -3015,6 +3032,9 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Friction"
       ]
     },
     {
@@ -3078,6 +3098,9 @@
           },
           "my": null
         }
+      ],
+      "tags": [
+        "Friction"
       ]
     },
     {
@@ -3113,6 +3136,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Loss Aversion · Goal-Gradient Effect — streak ပျက်မှာ ကြောက်တဲ့ စိတ်က နေ့တိုင်း ပြန်လာခိုင်းတယ်၊ နံပါတ် ကြီးလေလေ မရပ်ချင်လေပဲ။"
           }
         }
+      ],
+      "tags": [
+        "Retention"
       ]
     },
     {
@@ -3148,6 +3174,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Recognition Over Recall · Mere Exposure Effect — အရင် သီချင်းတွေကို စဉ်းစားပြီး ရှာစရာ မလိုဘူး၊ မြင်လိုက်တာနဲ့ တန်း သိတယ်၊ ကြားရများတဲ့ သီချင်းက ပို စိတ်ချရသလို ခံစားရတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Friction"
       ]
     },
     {
@@ -3183,6 +3212,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Social Proof · Transparency — လူအများ ဘယ်အချိန် စည်လဲ ဆိုတာ ပွင့်ပွင့်လင်းလင်း ပြထားလို့ မသွားခင် ဆုံးဖြတ်လို့ ရတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Social Proof"
       ]
     },
     {
@@ -3218,6 +3250,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Fitts's Law · Immediate Feedback — နှိပ်ရမယ့် နေရာက photo တစ်ခုလုံး ဆိုတော့ ကြီးပြီး မျက်စိရှေ့မှာပဲ ရှိတယ်၊ heart ပေါ်လာတာနဲ့ like ရောက်ပြီလို့ တန်း သိတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Feedback"
       ]
     },
     {
@@ -3253,6 +3288,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Information Scent · User Control — thumbnail လေးတွေက အဲဒီ နေရာမှာ ဘာရှိလဲ ဆိုတဲ့ သဲလွန်စ ပေးတယ်၊ ဘယ်နေရာကို ဆင်းမလဲ ဆိုတာလည်း မင်း ကိုယ်တိုင် ဆုံးဖြတ်တယ်။"
           }
         }
+      ],
+      "tags": [
+        "Cognitive Load"
       ]
     },
     {
@@ -3288,6 +3326,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Smart Defaults · Tesler's Law — အရင် order ကို အဆင်သင့် default အဖြစ် ပြန် တည်ဆောက်ပေးထားတယ်၊ ရှုပ်တဲ့ အလုပ်ကို app က လုပ်ထားလို့ မင်းက အတည်ပြုရုံပဲ ကျန်တယ်။"
           }
         }
+      ],
+      "tags": [
+        "Friction"
       ]
     },
     {
@@ -3323,6 +3364,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Social Proof · Hick's Law — တခြား customer တွေ တွဲဝယ်နေကျ ဟာတွေက မင်းအတွက် ရွေးပေးထားလို့ ဆုံးဖြတ်ချက် အများကြီးအစား တစ်စုတည်း ယူမလား ဆိုတာပဲ ရှိတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Social Proof"
       ]
     },
     {
@@ -3358,6 +3402,10 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Recognition Over Recall · Progressive Disclosure — tool တွေကို ဝှက်ထားပြီး \"/\" ရိုက်မှ list အဖြစ် ဖွင့်ပြတယ်၊ အလွတ် မှတ်ထားစရာ မလိုဘဲ မြင်တာနဲ့ ရွေးလို့ ရတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Progressive Disclosure",
+        "Cognitive Load"
       ]
     },
     {
@@ -3393,6 +3441,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Hick's Law · Focus — ရွေးစရာ စာရင်း မရှိတော့ ဆုံးဖြတ်စရာလည်း မရှိဘူး၊ အာရုံ အကုန်လုံးက play နေတဲ့ video တစ်ခုတည်းမှာပဲ ရှိတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Cognitive Load"
       ]
     },
     {
@@ -3428,6 +3479,9 @@
             "text": "Applied လုပ်ထားတဲ့ principle: Progressive Disclosure · Flexibility and Efficiency of Use — search က မင်း အခု သိထားတာကိုပဲ မေးတယ်၊ ရက် အတိအကျ မရှိလည်း အကြမ်းဖျင်း နဲ့ ရှာလို့ ရတယ်။"
           }
         }
+      ],
+      "tags": [
+        "Progressive Disclosure"
       ]
     }
   ]

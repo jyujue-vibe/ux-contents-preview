@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Form Design Cheatsheet
+## 1. Form Design
 
 **[EN] What it is**
 Forms are where users give you their data, their money, or their trust. Most people do not fail forms because the questions are hard. They fail because the form makes them work, guess, or start over.
@@ -41,7 +41,7 @@ Form ဆိုတာ user က သူ့ data ကို ပေးတဲ့ နေ
 
 ---
 
-## 2. UX Laws Cheatsheet
+## 2. UX Laws
 
 **[EN] What it is**
 A handful of psychology findings explain most of what works in interfaces. You do not need all of them at once. You need the right one at the moment you are deciding.
@@ -77,7 +77,7 @@ Psychology က တွေ့ရှိချက် လက်တစ်ဆုပ်�
 
 ---
 
-## 3. Onboarding Cheatsheet
+## 3. Onboarding
 
 **[EN] What it is**
 Onboarding is everything between "I downloaded this" and "I get it, and it is worth it". That second moment is the Aha! Moment. Good onboarding gets people there fast, by letting them do the real thing, not by teaching a course first.
@@ -113,7 +113,7 @@ Onboarding ဆိုတာ download လုပ်ပြီးတဲ့ အချ�
 
 ---
 
-## 4. Empty States Cheatsheet
+## 4. Empty States
 
 **[EN] What it is**
 An empty state is any screen with nothing in it yet: no messages, no photos, no results. It is the first thing new users see in most features. A blank box wastes it. A good empty state explains, invites, and shows the first step.
@@ -147,7 +147,7 @@ Empty state ဆိုတာ ဘာမှ မရှိသေးတဲ့ screen �
 
 ---
 
-## 5. Error Messages Cheatsheet
+## 5. Error Messages
 
 **[EN] What it is**
 An error message is a tiny conversation at the user's worst moment. They did something, it failed, and now they are annoyed. The message has three jobs: say what happened, say why, and say what to do next. Most messages only do the first, in words nobody understands.
@@ -183,7 +183,7 @@ Error message ဆိုတာ user အတွက် အဆိုးဆုံး �
 
 ---
 
-## 6. Buttons & CTA Cheatsheet
+## 6. Buttons & CTA
 
 **[EN] What it is**
 A call to action is the one button that carries the page's goal: buy, sign up, send, save. Every screen has a loudest action whether you choose it or not. This sheet is about choosing it on purpose.
@@ -219,7 +219,7 @@ Call to action ဆိုတာ page ရဲ့ ရည်မှန်းချက�
 
 ---
 
-## 7. Search UX Cheatsheet
+## 7. Search UX
 
 **[EN] What it is**
 Search is where users tell you, in their own words, what they came for. It is also where products lose them quietly: no results, wrong results, no way forward. Good search forgives bad spelling, guesses intent, and always offers a next step.
@@ -255,7 +255,7 @@ Search ဆိုတာ user က သူ့ စကားနဲ့ သူ ဘာလ
 
 ---
 
-## 8. Mobile Navigation Cheatsheet
+## 8. Mobile Navigation
 
 **[EN] What it is**
 Navigation answers three questions at all times: where am I, where can I go, how do I get back. On mobile the screen is small, the thumb is the mouse, and people are usually walking, eating, or half-watching something else while they use it.
@@ -291,7 +291,7 @@ Navigation က မေးခွန်း သုံးခုကို အမြဲ
 
 ---
 
-## 9. Loading & Waiting Cheatsheet
+## 9. Loading & Waiting
 
 **[EN] What it is**
 Waiting is part of every product. The wait itself rarely kills the experience; the uncertainty does. People accept a known wait far better than a shorter unknown one, because a frozen screen whispers "it broke, and it is your fault for trusting it".
@@ -327,7 +327,7 @@ Waiting is part of every product. The wait itself rarely kills the experience; t
 
 ---
 
-## 10. Pricing Page Cheatsheet
+## 10. Pricing Page
 
 **[EN] What it is**
 A pricing page is where interest turns into a decision, and decisions are scary. People arrive with one question — "what do I get, and what does it really cost me" — and leave the moment the page makes them do maths, hunt for totals, or fear a trap.
