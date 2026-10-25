@@ -22,6 +22,8 @@ type Piece = {
   tags?: string[]
 }
 
+type SortMode = 'new' | 'old' | 'alphabetical'
+
 const CATEGORIES = ['Articles', 'Case Studies', 'UX Bites', 'Cheatsheets', 'Glossary']
 const pieces = content.pieces as Piece[]
 
@@ -176,13 +178,40 @@ function PieceDetail({
 export default function App() {
   const [tab, setTab] = useState('Articles')
   const [openId, setOpenId] = useState<string | null>(null)
+  const [sortMode, setSortMode] = useState<SortMode>('new')
   const { toasts, showToast, dismissToast } = useAnimatedToastStack({ limit: 3 })
+
+  const originalCategoryIndex = useMemo(() => {
+    const counts: Record<string, number> = {}
+    const map = new Map<string, number>()
+    for (const piece of pieces) {
+      const index = counts[piece.category] ?? 0
+      map.set(piece.id, index)
+      counts[piece.category] = index + 1
+    }
+    return map
+  }, [])
 
   const byCategory = useMemo(() => {
     const map: Record<string, Piece[]> = {}
-    for (const c of CATEGORIES) map[c] = pieces.filter((p) => p.category === c)
+    for (const c of CATEGORIES) {
+      const indexed = pieces
+        .map((piece, index) => ({ piece, index }))
+        .filter(({ piece }) => piece.category === c)
+
+      indexed.sort((a, b) => {
+        if (sortMode === 'new') return b.index - a.index
+        if (sortMode === 'old') return a.index - b.index
+        return (
+          a.piece.titleEn.localeCompare(b.piece.titleEn, 'en', { sensitivity: 'base' }) ||
+          a.index - b.index
+        )
+      })
+
+      map[c] = indexed.map(({ piece }) => piece)
+    }
     return map
-  }, [])
+  }, [sortMode])
 
   const openPiece = openId ? pieces.find((p) => p.id === openId) : undefined
   const copied = () =>
@@ -234,6 +263,26 @@ export default function App() {
 
         {CATEGORIES.map((c) => (
           <TabsContent key={c} value={c} className="pt-5">
+            {!(openPiece && openPiece.category === c) && byCategory[c].length > 0 && (
+              <div className="mb-4 flex items-center justify-end gap-2">
+                <label
+                  htmlFor={`sort-${c}`}
+                  className="text-xs font-medium uppercase tracking-wider text-muted-foreground"
+                >
+                  Sort
+                </label>
+                <select
+                  id={`sort-${c}`}
+                  value={sortMode}
+                  onChange={(e) => setSortMode(e.target.value as SortMode)}
+                  className="rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-ring"
+                >
+                  <option value="new">New first</option>
+                  <option value="old">Old first</option>
+                  <option value="alphabetical">Alphabetical</option>
+                </select>
+              </div>
+            )}
             {openPiece && openPiece.category === c ? (
               <PieceDetail
                 piece={openPiece}
@@ -265,7 +314,7 @@ export default function App() {
                       <CardHeader>
                         {c === 'UX Bites' && (
                           <span className="mb-1 inline-block w-fit rounded bg-secondary px-1.5 py-0.5 text-[11px] font-semibold tracking-wider text-muted-foreground">
-                            #{i + 1}
+                            #{(originalCategoryIndex.get(p.id) ?? i) + 1}
                           </span>
                         )}
                         <CardTitle className="text-xl leading-snug">{p.titleEn}</CardTitle>
